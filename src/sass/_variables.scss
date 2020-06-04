@@ -1,0 +1,23 @@
+// * Colors
+
+$primary: #007bff;
+$secondary: #6c757d;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$gray: #29303a;
+$gray-dark: #1d242e;
+$dark: #121420;
+
+// * Borders
+$border-2p: 2px solid $gray;
+
+// * Media querys - BP
+
+$bp-lgs: 75em; // 1200px
+$bp-lg: 68.75em; // 1100px
+$bp-m: 56.25em; // 900px
+$bp-s: 37.5em; // 600px
+$bp-xs: 31.25em; // 500px

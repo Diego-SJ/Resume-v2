@@ -1,0 +1,27 @@
+@import './variables';
+@import './animations';
+
+.paragraph {
+	font-weight: 300;
+	color: $secondary;
+	font-size: 1.8rem;
+	line-height: 3rem;
+}
+
+h1 {
+	color: $primary;
+	margin: 1.5rem 0;
+	font-weight: 400;
+
+	& > span {
+		color: $light;
+	}
+
+	&.primary {
+		font-size: 5rem;
+	}
+
+	&.secondary {
+		font-size: 3rem;
+	}
+}

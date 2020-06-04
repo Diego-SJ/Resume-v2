@@ -1,0 +1,69 @@
+@import '../../sass/main.scss';
+
+.form {
+	display: flex;
+	flex-direction: column;
+
+	& > h1 {
+		margin-top: 0 !important;
+	}
+
+	&__group {
+		position: relative;
+		& > label {
+			position: absolute;
+			font-size: 1.3rem;
+			top: -12px;
+			left: 25px;
+			color: $secondary;
+			background-color: $dark;
+			padding: 0.3rem 1rem;
+			transition: all 0.5s;
+		}
+
+		&:first-of-type {
+			margin-top: 2rem;
+		}
+	}
+
+	&__input,
+	&__input-ta {
+		width: 100%;
+		border: none;
+		padding: 1.5rem;
+		font-size: 1.5rem;
+		margin-bottom: 3rem;
+		background-color: transparent;
+		border: 1px solid $secondary;
+		color: $secondary;
+		transition: all 0.5s;
+		outline: none;
+
+		&:focus {
+			border: 1px solid $primary;
+		}
+		&:focus + label {
+			color: $primary;
+		}
+		&:focus:invalid {
+			border: 1px solid $danger;
+		}
+
+		&:focus:invalid + label {
+			color: $danger;
+		}
+
+		&:invalid + label {
+			color: $secondary;
+		}
+		&:invalid {
+			border: 1px solid $secondary;
+		}
+	}
+
+	&__input-ta {
+		height: 10rem;
+		resize: none;
+		transition: all 0.5s;
+	}
+}

@@ -1,0 +1,42 @@
+@import '../../../sass//main.scss';
+
+.skill {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 2rem;
+
+	&__title {
+		color: $light;
+		font-size: 2rem;
+		margin-bottom: 1rem;
+	}
+
+	&__inner {
+		display: flex;
+		align-items: center;
+		padding: 0.5rem 0;
+	}
+
+	&__percentage {
+		color: $secondary;
+		font-size: 1.5rem;
+		margin-right: 2rem;
+	}
+
+	&__container {
+		background-color: rgba($secondary, 0.7);
+		height: 6px;
+		width: 100%;
+		border-radius: 5px;
+		position: relative;
+	}
+
+	&-active {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		background-color: $primary;
+		border-radius: 5px;
+	}
+}
