@@ -6,6 +6,7 @@ import { CONTACT, LINKEDIN, GITHUB, HOME } from '../../routes/routes';
 
 import './Home.scss';
 import videoParticles from '../../assets/video/particles.mp4';
+import videoParticlesWeb from '../../assets/video/particles.mp4';
 
 export default function Home() {
 	const { phone } = ['+527714152997'];
@@ -16,7 +17,7 @@ export default function Home() {
 				<div className='bg-video'>
 					<video className='bg-video__content' autoPlay muted loop>
 						<source src={videoParticles} type='video/mp4' />
-						<source src={videoParticles} type='video/webm' />
+						<source src={videoParticlesWeb} type='video/webm' />
 						Your browser is not supported!
 					</video>
 				</div>
