@@ -208,7 +208,7 @@ export const PortfolioInfo = [
 	{
 		id: 2,
 		image: img_p06,
-		link: 'https://github.com/Diego-SJ/Resume',
+		link: 'https://github.com/Diego-SJ/Resume-v2',
 		title: 'My resume',
 		description: 'My resume online',
 	},
