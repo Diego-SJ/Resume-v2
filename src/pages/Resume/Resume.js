@@ -23,7 +23,7 @@ export default function Resume() {
 				<Section
 					content={
 						<>
-							<TitleSection title='Skills' />
+							<TitleSection title={'RESUME.title.2'} />
 							<Row>
 								{Skills.map((skill) => (
 									<Skill
@@ -39,7 +39,7 @@ export default function Resume() {
 				<Section
 					content={
 						<>
-							<TitleSection title='Education' />
+							<TitleSection title={'RESUME.title.3'} />
 							<Row>
 								<TimeLine list={Education} />
 							</Row>
@@ -49,7 +49,7 @@ export default function Resume() {
 				<Section
 					content={
 						<>
-							<TitleSection title='Professional experience' />
+							<TitleSection title={'RESUME.title.4'} />
 							<Row>
 								<TimeLine list={ProfessionalExperience} />
 							</Row>
@@ -59,7 +59,7 @@ export default function Resume() {
 				<Section
 					content={
 						<>
-							<TitleSection title='Recognitions and courses' />
+							<TitleSection title={'RESUME.title.5'} />
 							<Row>
 								<TimeLine list={Recognitions} />
 							</Row>

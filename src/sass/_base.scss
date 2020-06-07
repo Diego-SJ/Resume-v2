@@ -28,6 +28,7 @@ body {
 .container {
 	background-color: $dark;
 	display: flex;
+	position: relative;
 
 	max-height: 100vh;
 	height: 100vh;

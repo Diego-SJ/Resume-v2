@@ -16,7 +16,7 @@ export default function Contact() {
 				<Section
 					content={
 						<>
-							<TitleSection title='Contact me' />
+							<TitleSection title='CONTACT.title.1' />
 							<Row>
 								<Col lg={6} md={6} sm={12}>
 									<ContactForm />

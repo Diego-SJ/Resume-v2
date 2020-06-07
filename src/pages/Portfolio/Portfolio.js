@@ -16,7 +16,7 @@ export default function Portfolio() {
 				<Section
 					content={
 						<>
-							<TitleSection title='Portfolio' />
+							<TitleSection title='PORTFOLIO.title.1' />
 							<Row>
 								{PortfolioInfo.map((item) => (
 									<CardPortfolio

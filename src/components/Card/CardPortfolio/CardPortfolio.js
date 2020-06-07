@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col } from 'react-grid-system';
+import { useTranslation } from 'react-i18next';
 import ModalBasic from '../../Modal';
 import useModal from 'use-react-modal';
 import Icon from '../../Icon';
@@ -8,6 +9,7 @@ import './CardPortfolio.scss';
 
 export default function CardPortfolio(props) {
 	const { image = null, title, description, link = null } = props;
+	const { t } = useTranslation();
 
 	const { isOpen, openModal, closeModal, Modal } = useModal({
 		background: 'rgba(0, 0, 0, 0.8)',
@@ -46,11 +48,11 @@ export default function CardPortfolio(props) {
 					<div className='portfolios-card__wraper'>
 						<div className='portfolios-card__title'>
 							<a href={link} target='_blank' without rel='noopener noreferrer'>
-								{title}
+								{t(title)}
 							</a>
 						</div>
 						<div className='portfolios-card__description'>
-							<p>{description}</p>
+							<p>{t(description)}</p>
 						</div>
 					</div>
 				</div>

@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com';
 import { useToasts } from 'react-toast-notifications';
+import { useTranslation } from 'react-i18next';
+import emailjs from 'emailjs-com';
 
 import './ContactForm.scss';
 
 export default function ContactForm() {
 	const [dataForm, setDataform] = useState(initialFormState());
+	const { t } = useTranslation();
 
 	const updateDataForm = (e) => {
 		setDataform({
@@ -54,7 +56,7 @@ export default function ContactForm() {
 		<>
 			<form id='contactForm' className='form' onSubmit={(e) => sendEmail(e)}>
 				<h1 className='secondary'>
-					<span>Get In Touch</span>
+					<span>{t('CONTACT.FORM.getInTouch')}</span>
 				</h1>
 				<div className='form__group'>
 					<input
@@ -65,7 +67,7 @@ export default function ContactForm() {
 						className='form__input'
 						required
 					/>
-					<label htmlFor='name'>Enter your name *</label>
+					<label htmlFor='name'>{t('CONTACT.FORM.name')} *</label>
 				</div>
 				<div className='form__group'>
 					<input
@@ -76,7 +78,7 @@ export default function ContactForm() {
 						className='form__input'
 						required
 					/>
-					<label htmlFor='name'>Enter your email *</label>
+					<label htmlFor='name'>{t('CONTACT.FORM.email')} *</label>
 				</div>
 				<div className='form__group'>
 					<input
@@ -87,7 +89,7 @@ export default function ContactForm() {
 						className='form__input'
 						required
 					/>
-					<label htmlFor='subject'>Enter your subject *</label>
+					<label htmlFor='subject'>{t('CONTACT.FORM.subject')} *</label>
 				</div>
 				<div className='form__group'>
 					<textarea
@@ -97,11 +99,11 @@ export default function ContactForm() {
 						className='form__input-ta'
 						required
 					></textarea>
-					<label htmlFor='message'>Enter your message *</label>
+					<label htmlFor='message'>{t('CONTACT.FORM.message')} *</label>
 				</div>
 				<div className='form__group'>
 					<button type='submit' className='btn-primary'>
-						Send Mail
+						{t('CONTACT.FORM.send')}
 					</button>
 				</div>
 			</form>

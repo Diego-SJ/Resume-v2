@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Row, Col } from 'react-grid-system';
 import { ABOUT } from '../../routes/routes';
 import { PersonalData, Services } from '../../utils/dbTemp';
+import { useTranslation } from 'react-i18next';
 import SlideMenu from '../../layouts/SlideMenu';
 import Section from '../../layouts/Section';
 import CardService from '../../components/Card/CardService';
@@ -13,6 +14,7 @@ import './About.scss';
 import photo from '../../assets/img/profile/jdsj2.jpg';
 
 export default function About() {
+	const { t } = useTranslation();
 	return (
 		<>
 			<SlideMenu currentPage={ABOUT} />
@@ -20,7 +22,7 @@ export default function About() {
 				<Section
 					content={
 						<>
-							<TitleSection title='About me' />
+							<TitleSection title={'ABOUT.title.2'} />
 							<Row>
 								<Col lg={6}>
 									<div className='section-content__avatar'>
@@ -30,15 +32,13 @@ export default function About() {
 								<Col lg={6}>
 									<div className='section-content__info'>
 										<h1 className='secondary'>
-											<span>I am </span> Juan Diego Salas Jiménez
+											<span>{t('ABOUT.iam.1')} </span> Juan Diego Salas Jiménez
 										</h1>
-										<p className='paragraph'>
-											Engineering student in Information Technology and Communications.
-										</p>
+										<p className='paragraph'>{t('ABOUT.info.1')}</p>
 										<ul className='personal-data'>
 											{PersonalData.map((data) => (
 												<li key={data.id} className='personal-data__item'>
-													<b>{data.title}</b> {data.description}
+													<b>{t(data.title)}</b> {t(data.description)}
 												</li>
 											))}
 										</ul>
@@ -50,7 +50,7 @@ export default function About() {
 												window.open(urlResume);
 											}}
 										>
-											Download resume
+											{t('ABOUT.downloadResume.1')}
 										</Link>
 									</div>
 								</Col>
@@ -62,7 +62,7 @@ export default function About() {
 				<Section
 					content={
 						<>
-							<TitleSection title='Services' />
+							<TitleSection title={'ABOUT.title.3'} />
 							<Row>
 								{Services.map((service) => (
 									<Col
@@ -73,9 +73,9 @@ export default function About() {
 										style={{ marginBottom: '3rem' }}
 									>
 										<CardService
-											icon={service.icon}
-											title={service.title}
-											description={service.description}
+											icon={t(service.icon)}
+											title={t(service.title)}
+											description={t(service.description)}
 										/>
 									</Col>
 								))}
