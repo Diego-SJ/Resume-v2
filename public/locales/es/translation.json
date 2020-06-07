@@ -5,7 +5,7 @@
 			"1": "¡Hola! Soy"
 		},
 		"objetive": {
-			"1": "Formar parte de una empresa en la que pueda poner en práctica todos mis conocimientos, que me brinde la oportunidad de alcanzar todas mis metas trazadas, y que me ofrezca la oportunidad de crecer en el área laboral, personal e intelectual."
+			"1": "Sin cambio no hay innovación, creatividad, o incentivo para la mejora. Aquellos que inicien el cambio tendrán una mejor oportunidad de manejar el cambio que es inevitable. \n- William Pollard."
 		}
 	},
 	"ABOUT": {
@@ -43,7 +43,9 @@
 			"2": "Soltero"
 		},
 		"downloadResume": {
-			"1": "DESCARGAR CURRICULUM"
+			"1": "DESCARGAR CURRICULUM",
+			"es": "ESPAÑOL",
+			"en": "INGLÉS"
 		},
 		"SERVICE": {
 			"title": {
@@ -60,11 +62,15 @@
 	},
 	"RESUME": {
 		"title": {
-			"1": "CURRÍCULUM",
-			"2": "HABILIDADES",
-			"3": "EDUCACIÓN",
-			"4": "EXPERIENCIA PROFESIONAL",
-			"5": "RECONOCIMIENTOS Y CURSOS"
+			"1": "RESUME",
+			"objective": "OBJETIVO PROFESIONAL",
+			"skills": "HABILIDADES",
+			"education": "EDUCACIÓN",
+			"proExp": "EXPERIENCIA PROFESIONAL",
+			"recognitions": "RECONOCIMIENTOS Y CURSOS"
+		},
+		"OBJECTIVE": {
+			"text": "Formar parte de una empresa en la que pueda poner en práctica todos mis conocimientos, que me brinde la oportunidad de alcanzar todas mis metas trazadas, y que me ofrezca la oportunidad de crecer en el área laboral, personal e intelectual."
 		},
 		"EDUCATION": {
 			"1": {
@@ -206,12 +212,17 @@
 			"email": "Ingresa tu correo",
 			"subject": "Asunto",
 			"message": "Mensaje",
-			"send": "ENVIAR"
+			"send": "ENVIAR",
+			"MESSAGES": {
+				"success": "Correo enviado satisfactoriamente.",
+				"warning": "¡Uy! Algo salió mal, inténtalo más tarde.",
+				"error": "¡Uy! Algo salió mal, inténtalo más tarde."
+			}
 		},
 		"INFO": {
 			"address": {
 				"title": "Dirección",
-				"description": "Calle Pirul #6 Mzna. Godo, Dextho de Victoria, San Salvador Hgo. C.P. 42640"
+				"description": "Calle Pirul #6 Manzana Godo, Dextho de Victoria, San Salvador Hgo. C.P. 42640"
 			},
 			"phone": {
 				"title": "Teléfono",

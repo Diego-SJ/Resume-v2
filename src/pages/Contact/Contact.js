@@ -8,6 +8,8 @@ import TitleSection from '../../components/Text/TitleSection';
 import ContactForm from '../../components/ContactForm';
 import CardContact from '../../components/Card/CardContact';
 
+import './Contact.scss';
+
 export default function Contact() {
 	return (
 		<>

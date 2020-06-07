@@ -41,28 +41,6 @@ body {
 	position: relative;
 }
 
-.btn-primary,
-.btn-primary:active,
-.btn-primary:visited {
-	font-size: 1.5rem;
-	border: none;
-	padding: 1.5rem 4rem;
-	text-transform: uppercase;
-	letter-spacing: 0.3rem;
-	background-color: $primary;
-	color: $light !important;
-	cursor: pointer;
-	transition: all 0.2s;
-	text-decoration: none !important;
-	outline: none !important;
-
-	&:hover {
-		transform: translateY(-0.4rem);
-		background-color: rgba($primary, 0.7);
-		box-shadow: 0 0 2rem rgba(#000, 0.3);
-	}
-}
-
 .mt-1 {
 	margin-top: 1rem !important;
 }

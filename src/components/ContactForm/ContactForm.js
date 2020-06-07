@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { useToasts } from 'react-toast-notifications';
 import { useTranslation } from 'react-i18next';
+import ButtonPrimary from '../Button/ButtonPrimary';
 import emailjs from 'emailjs-com';
 
 import './ContactForm.scss';
 
 export default function ContactForm() {
 	const [dataForm, setDataform] = useState(initialFormState());
+	const [loading, setLoading] = useState(false);
 	const { t } = useTranslation();
 
 	const updateDataForm = (e) => {
@@ -23,33 +25,40 @@ export default function ContactForm() {
 	var user_id = 'user_VWDQ4L4IXK2FhHzyVKYUn';
 
 	const sendEmail = (e) => {
+		setLoading(true);
 		e.preventDefault();
 
-		emailjs.send(service_id, template_id, dataForm, user_id).then(
-			(result) => {
-				if (result.text === 'OK') {
-					addToast('Email sent successfully', {
-						appearance: 'success',
+		emailjs
+			.send(service_id, template_id, dataForm, user_id)
+			.then(
+				(result) => {
+					if (result.text === 'OK') {
+						addToast(`${t('CONTACT.FORM.MESSAGES.success')}`, {
+							appearance: 'success',
+							autoDismiss: true,
+							autoDismissTimeout: 5000,
+						});
+						setDataform(initialFormState());
+					} else {
+						addToast(`${t('CONTACT.FORM.MESSAGES.warning')}`, {
+							appearance: 'warning',
+							autoDismiss: true,
+							autoDismissTimeout: 5000,
+						});
+					}
+				},
+				(error) => {
+					console.log(error.text);
+					addToast(`${t('CONTACT.FORM.MESSAGES.error')}`, {
+						appearance: 'error',
 						autoDismiss: true,
-						autoDismissTimeout: 2000,
+						autoDismissTimeout: 5000,
 					});
-					setDataform(initialFormState());
-				} else {
-					addToast(result.text, {
-						appearance: 'warning',
-						autoDismiss: true,
-						autoDismissTimeout: 3000,
-					});
-				}
-			},
-			(error) => {
-				addToast(error.text, {
-					appearance: 'error',
-					autoDismiss: true,
-					autoDismissTimeout: 3000,
-				});
-			},
-		);
+				},
+			)
+			.finally(() => {
+				setLoading(false);
+			});
 	};
 
 	return (
@@ -102,9 +111,11 @@ export default function ContactForm() {
 					<label htmlFor='message'>{t('CONTACT.FORM.message')} *</label>
 				</div>
 				<div className='form__group'>
-					<button type='submit' className='btn-primary'>
-						{t('CONTACT.FORM.send')}
-					</button>
+					<ButtonPrimary
+						loading={loading}
+						type='submit'
+						content={`${t('CONTACT.FORM.send')}`}
+					/>
 				</div>
 			</form>
 		</>
