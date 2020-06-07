@@ -1,20 +1,60 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Row, Col } from 'react-grid-system';
 import { ABOUT } from '../../routes/routes';
 import { PersonalData, Services } from '../../utils/dbTemp';
 import { useTranslation } from 'react-i18next';
+import ButtonPrimary from '../../components/Button/ButtonPrimary';
+import ModalBasic from '../../components/Modal';
+import useModal from 'use-react-modal';
 import SlideMenu from '../../layouts/SlideMenu';
 import Section from '../../layouts/Section';
 import CardService from '../../components/Card/CardService';
 import TitleSection from '../../components/Text/TitleSection';
-import urlResume from '../../assets/file/Juan Diego Salas Jimenez.pdf';
+import resumeSpanish from '../../assets/file/Juan Diego Salas Jimenez - es.pdf';
+import resumeEnglish from '../../assets/file/Juan Diego Salas Jimenez - en.pdf';
 
 import './About.scss';
 import photo from '../../assets/img/profile/jdsj2.jpg';
 
 export default function About() {
 	const { t } = useTranslation();
+
+	const { isOpen, openModal, closeModal, Modal } = useModal({
+		background: 'rgba(0, 0, 0, 0.85)',
+		closeOnOutsideClick: true,
+		closeOnEsc: true,
+	});
+
+	const selectResume = () => {
+		const openResume = (lang) => {
+			switch (lang) {
+				case 'es':
+					window.open(resumeSpanish);
+					break;
+				case 'en':
+					window.open(resumeEnglish);
+					break;
+				default:
+					closeModal();
+					break;
+			}
+			closeModal();
+		};
+
+		return (
+			<div className='resumes'>
+				<ButtonPrimary
+					content={`${t('ABOUT.downloadResume.es')}`}
+					onClick={() => openResume('es')}
+				/>
+				<ButtonPrimary
+					content={`${t('ABOUT.downloadResume.en')}`}
+					onClick={() => openResume('en')}
+				/>
+			</div>
+		);
+	};
+
 	return (
 		<>
 			<SlideMenu currentPage={ABOUT} />
@@ -42,16 +82,18 @@ export default function About() {
 												</li>
 											))}
 										</ul>
-										<Link
-											to='!#'
-											className='btn-primary'
-											onClick={(event) => {
-												event.preventDefault();
-												window.open(urlResume);
-											}}
-										>
-											{t('ABOUT.downloadResume.1')}
-										</Link>
+										<ButtonPrimary
+											type='button'
+											content={`${t('ABOUT.downloadResume.1')}`}
+											onClick={openModal}
+										/>
+										<ModalBasic
+											isOpen={isOpen}
+											closeModal={closeModal}
+											Modal={Modal}
+											btnClose={false}
+											content={selectResume()}
+										/>
 									</div>
 								</Col>
 							</Row>

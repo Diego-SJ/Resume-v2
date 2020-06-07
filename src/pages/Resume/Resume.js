@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row } from 'react-grid-system';
 import { RESUME } from '../../routes/routes';
+import { useTranslation } from 'react-i18next';
 import {
 	Skills,
 	Education,
@@ -16,6 +17,7 @@ import TimeLine from '../../components/Resume/TimeLine';
 import './Resume.scss';
 
 export default function Resume() {
+	const { t } = useTranslation();
 	return (
 		<>
 			<SlideMenu currentPage={RESUME} />
@@ -23,7 +25,17 @@ export default function Resume() {
 				<Section
 					content={
 						<>
-							<TitleSection title={'RESUME.title.2'} />
+							<TitleSection title={'RESUME.title.objective'} />
+							<Row>
+								<div className='paragraph-justify'>{t('RESUME.OBJECTIVE.text')}</div>
+							</Row>
+						</>
+					}
+				/>
+				<Section
+					content={
+						<>
+							<TitleSection title={'RESUME.title.skills'} />
 							<Row>
 								{Skills.map((skill) => (
 									<Skill
@@ -39,7 +51,7 @@ export default function Resume() {
 				<Section
 					content={
 						<>
-							<TitleSection title={'RESUME.title.3'} />
+							<TitleSection title={'RESUME.title.education'} />
 							<Row>
 								<TimeLine list={Education} />
 							</Row>
@@ -49,7 +61,7 @@ export default function Resume() {
 				<Section
 					content={
 						<>
-							<TitleSection title={'RESUME.title.4'} />
+							<TitleSection title={'RESUME.title.proExp'} />
 							<Row>
 								<TimeLine list={ProfessionalExperience} />
 							</Row>
@@ -59,7 +71,7 @@ export default function Resume() {
 				<Section
 					content={
 						<>
-							<TitleSection title={'RESUME.title.5'} />
+							<TitleSection title={'RESUME.title.recognitions'} />
 							<Row>
 								<TimeLine list={Recognitions} />
 							</Row>

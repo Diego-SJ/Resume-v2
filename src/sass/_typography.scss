@@ -6,6 +6,19 @@
 	color: $secondary;
 	font-size: 1.8rem;
 	line-height: 3rem;
+
+	&-justify {
+		text-align: justify;
+		margin: 0rem 2rem;
+	}
+}
+.paragraph-justify {
+	font-weight: 300;
+	color: $secondary;
+	font-size: 1.8rem;
+	line-height: 3rem;
+	text-align: justify;
+	margin: -0.5rem 1.5rem 0rem 1.5rem;
 }
 
 h1 {
