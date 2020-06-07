@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Col } from 'react-grid-system';
 import { useTranslation } from 'react-i18next';
+import ImageLoader from '../../ImageLoader';
 import ModalBasic from '../../Modal';
 import useModal from 'use-react-modal';
 import Icon from '../../Icon';
@@ -10,6 +11,8 @@ import './CardPortfolio.scss';
 export default function CardPortfolio(props) {
 	const { image = null, title, description, link = null } = props;
 	const { t } = useTranslation();
+
+	const [isImageLoaded, setIsImageLoaded] = useState(false);
 
 	const { isOpen, openModal, closeModal, Modal } = useModal({
 		background: 'rgba(0, 0, 0, 0.8)',
@@ -22,10 +25,21 @@ export default function CardPortfolio(props) {
 			<Col lg={4} sm={12} md={6}>
 				<div className='portfolios-card'>
 					<div className='portfolios-card__head'>
-						<div
-							style={{ backgroundImage: `url(${image})` }}
-							className='portfolios-card__image'
-						></div>
+						<div className='portfolios-card__image'>
+							<img
+								src={image}
+								className='d-none'
+								onLoad={() => setTimeout(() => setIsImageLoaded(true), 3000)}
+								alt='hidden-img'
+							/>
+							{isImageLoaded && (
+								<div
+									className='portfolios-card__image-div'
+									style={{ backgroundImage: `url(${image})` }}
+								/>
+							)}
+							{!isImageLoaded && <ImageLoader />}
+						</div>
 						<div className='portfolios-card__hide'>
 							{image && (
 								<button onClick={openModal} className='portfolios-card__options'>
@@ -36,7 +50,7 @@ export default function CardPortfolio(props) {
 								<a
 									href={link}
 									target='_blank'
-									without
+									without={`true`}
 									rel='noopener noreferrer'
 									className='portfolios-card__options'
 								>
@@ -47,7 +61,12 @@ export default function CardPortfolio(props) {
 					</div>
 					<div className='portfolios-card__wraper'>
 						<div className='portfolios-card__title'>
-							<a href={link} target='_blank' without rel='noopener noreferrer'>
+							<a
+								href={link}
+								target='_blank'
+								without={`true`}
+								rel='noopener noreferrer'
+							>
 								{t(title)}
 							</a>
 						</div>

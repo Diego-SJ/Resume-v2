@@ -35,7 +35,7 @@ export default function SlideMenu(props) {
 						<img
 							src={photo}
 							alt='Juan Diego Salas Jimenez'
-							className='header__photo'
+							className={`header__photo`}
 						/>
 					</Link>
 				</div>

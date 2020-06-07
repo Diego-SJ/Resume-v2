@@ -7,7 +7,6 @@ button.language {
 	background-color: transparent;
 	border-radius: 10px;
 	border: 0;
-	outline: none;
 
 	position: absolute;
 	top: 1rem;
@@ -17,6 +16,13 @@ button.language {
 	justify-content: space-evenly;
 	align-items: center;
 	transition: all 0.2s;
+
+	&,
+	&::-moz-focus-inner,
+	&:focus {
+		outline: none;
+		border: 0;
+	}
 
 	&:hover {
 		background-color: $gray;

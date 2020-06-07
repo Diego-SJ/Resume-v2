@@ -33,7 +33,7 @@
 		padding: 1.5rem;
 		font-size: 1.5rem;
 		margin-bottom: 3rem;
-		background-color: transparent;
+		background-color: $dark !important;
 		border: 1px solid $secondary;
 		color: $secondary;
 		transition: all 0.5s;
@@ -59,6 +59,10 @@
 		&:invalid {
 			border: 1px solid $secondary;
 		}
+
+		&:focus:-webkit-autofill {
+			background-color: $dark !important;
+		}
 	}
 
 	&__input-ta {
@@ -66,4 +70,9 @@
 		resize: none;
 		transition: all 0.5s;
 	}
+}
+
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0 30px $dark inset !important;
+	-webkit-text-fill-color: $light !important;
 }

@@ -20,7 +20,7 @@ export default function Portfolio() {
 							<Row>
 								{PortfolioInfo.map((item) => (
 									<CardPortfolio
-										id={item.id}
+										key={item.id}
 										image={item.image}
 										title={item.title}
 										description={item.description}

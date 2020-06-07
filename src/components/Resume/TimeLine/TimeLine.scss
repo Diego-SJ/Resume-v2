@@ -9,7 +9,7 @@
 		height: 99%;
 		width: 5px;
 		border-left: 2px solid $gray;
-		top: 4px;
+		top: 8px;
 		left: 22px;
 		z-index: 0;
 		position: absolute;
@@ -33,25 +33,25 @@
 		position: relative;
 		margin-right: 1rem;
 
-		flex: 0 0 25%;
+		flex: 0 0 30%;
 
 		&::before {
 			content: '\2022';
 			color: $gray;
-			font-size: 35px;
+			font-size: 60px;
 			z-index: 2;
 			position: absolute;
-			top: -8.8px;
-			left: -45.5px;
+			top: -22px;
+			left: -47px;
 		}
 
 		&::after {
 			content: '';
 			background-color: $gray;
 			height: 2px;
-			width: 13px;
+			width: 10px;
 			position: absolute;
-			top: 9.8px;
+			top: 11px;
 			left: -32px;
 
 			@media only screen and (max-width: $bp-m) {
@@ -98,7 +98,7 @@
 			background-color: $gray;
 			height: 2px;
 			position: absolute;
-			top: 9.8px;
+			top: 11px;
 			left: -30px;
 			width: 10px;
 

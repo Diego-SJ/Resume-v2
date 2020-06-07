@@ -6,7 +6,7 @@ import es from '../../../assets/img/language/es.png';
 import en from '../../../assets/img/language/en.png';
 
 export default function LanguageButton() {
-	const [language, setLanguage] = useState('es');
+	const [language, setLanguage] = useState('en');
 	const { i18n } = useTranslation();
 
 	const onClick = () => {
