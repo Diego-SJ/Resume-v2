@@ -1,0 +1,229 @@
+{
+	"HOME": {
+		"title": "INICIO",
+		"hiIam": {
+			"1": "¡Hola! Soy"
+		},
+		"objetive": {
+			"1": "Formar parte de una empresa en la que pueda poner en práctica todos mis conocimientos, que me brinde la oportunidad de alcanzar todas mis metas trazadas, y que me ofrezca la oportunidad de crecer en el área laboral, personal e intelectual."
+		}
+	},
+	"ABOUT": {
+		"title": {
+			"1": "ACERCA DE",
+			"2": "SOBRE MÍ",
+			"3": "SERVICIOS"
+		},
+		"iam": {
+			"1": "Soy"
+		},
+		"info": {
+			"1": "Estudiante de Ingeniería en Tecnologías de la Información y Comunicaciones."
+		},
+		"fullName": {
+			"1": "Nombre",
+			"2": "Juan Diego Salas Jiménez"
+		},
+		"age": {
+			"1": "Edad"
+		},
+		"birthday": {
+			"1": "Fecha de nacimiento"
+		},
+		"nationality": {
+			"1": "Nacionalidad",
+			"2": "Mexicana"
+		},
+		"languages": {
+			"1": "Idiomas",
+			"2": "Español (Nativo) - Inglés (A2)"
+		},
+		"maritalStatus": {
+			"1": "Estado civil",
+			"2": "Soltero"
+		},
+		"downloadResume": {
+			"1": "DESCARGAR CURRICULUM"
+		},
+		"SERVICE": {
+			"title": {
+				"1": "Diseño web",
+				"2": "Desarrollo web",
+				"3": "Desarrollo móvil"
+			},
+			"description": {
+				"1": "La interfaz debe proyectar la imagen corporativa del cliente, su esencia y valores deben entenderse más allá de colocar solo el logotipo.",
+				"2": "La optimización del front-end como el back-end del sitio; El objetivo es controlar y optimizar el proceso de carga del sitio web.",
+				"3": "Los dispositivos móviles garantizan la practicidad que estamos buscando, por lo que es necesario que la navegación y la funcionalidad estén diseñadas para teléfonos móviles."
+			}
+		}
+	},
+	"RESUME": {
+		"title": {
+			"1": "CURRÍCULUM",
+			"2": "HABILIDADES",
+			"3": "EDUCACIÓN",
+			"4": "EXPERIENCIA PROFESIONAL",
+			"5": "RECONOCIMIENTOS Y CURSOS"
+		},
+		"EDUCATION": {
+			"1": {
+				"date": "Ago. 2016 - Actualmente",
+				"title": "Ingeniería de Tecnologías de la Información y Comunicaciones",
+				"subtitle": "Instituto Tecnológico Superior del Occidente del Estado de Hidalgo (ITSOEH)",
+				"description": "Mixquiahuala de Juárez Hgo."
+			},
+			"2": {
+				"date": "Ago. 2013 - Jul. 2016",
+				"title": "Técnico en programación",
+				"subtitle": "Centro de Bachillerato Tecnológico Industrial y de Servicios No. 83",
+				"description": "Actopan Hgo."
+			}
+		},
+		"PROFESSIONAL_EXPERIENCE": {
+			"1": {
+				"date": "Jun. 2019 - Actualmente",
+				"title": "Desarrollador de softare",
+				"subtitle": "Actosoft Community",
+				"description": "Desarrollador de aplicaciones móviles, miembro del equipo de desarrollo. \nFront-end para el registro de usuarios y geolocalización de la aplicación móvil \"Bunti App\". \nFrontend del módulo \"Team organizer\" para el sitio web \"México Trasciende\", Tecnológico de Monterrey."
+			},
+			"2": {
+				"date": "Dic. 2019 - Actualmente",
+				"title": "Freelancer",
+				"subtitle": "Freelancer",
+				"description": "Desarrollo de la plataforma web \"Meet\", Mixquiahuala de Juárez (En proceso)."
+			},
+			"3": {
+				"date": "Jun. 2019 - Dic. 2019",
+				"title": "Desarrollador web",
+				"subtitle": "Colegio Linus Pauling",
+				"description": "Desarrollo de la plataforma \"App Web Lecturas\" para registrar, analizar y presentar datos en materia de aprendizaje en el colegio Linus Pauling, Progreso de Obregón."
+			},
+			"4": {
+				"date": "Ago. 2017 - Dic. 2017",
+				"title": "Desarrollador y diseñador móvil",
+				"subtitle": "Ciclo-pep",
+				"description": "Miembro del equipo de desarrollo de back-end y front-end de la aplicación móvil \"Eco Guardianes\"."
+			}
+		},
+		"RECOGNITIONS": {
+			"1": {
+				"date": "Actualmente",
+				"title": "Curso \"CCNA R&S: Scaling Networks\" por Cisco e ITSOEH."
+			},
+			"2": {
+				"date": "Actualmente",
+				"title": "Curso \"Cybersecurity Essentials\" por Cisco e ITSOEH."
+			},
+			"3": {
+				"date": "Oct. 2019",
+				"title": "Puesto No.18 en el concurso de programación \"Coding CupTecNM\"."
+			},
+			"4": {
+				"date": "Ene. 2019",
+				"title": "Curso \"CCNA R&S: Connecting Networks\" por Cisco e ITSOEH."
+			},
+			"5": {
+				"date": "Ago. 2018",
+				"title": "Curso \"CCNA R&S: Routing and Switching Essentials\" por Cisco e ITSOEH."
+			},
+			"6": {
+				"date": "May. 2018",
+				"title": "Participación en el curso \"Diseña tu propia página web desde 0\" por SoftMotion."
+			},
+			"7": {
+				"date": "Oct. 2018",
+				"title": "1er puesto en el \"Rally Latinoamericano de innovación \" a nivel de sede."
+			},
+			"8": {
+				"date": "Ene. 2017",
+				"title": "Curso \"CCNA R&S: Introduction to Networks\" por Cisco e ITSOEH."
+			},
+			"9": {
+				"date": "Jun. 2015",
+				"title": "Acreditación de competencias en tecnologías Microsoft para productividad (Word, Excel y PowerPoint) por la SEP y Microsoft México."
+			}
+		}
+	},
+	"PORTFOLIO": {
+		"title": {
+			"1": "PORTAFOLIO"
+		},
+		"ITEM": {
+			"1": {
+				"title": "Paleteria Chuchin",
+				"description": "Aplicación de escritorio con Electron, React y Firebase"
+			},
+			"2": {
+				"title": "Plataforma Meet",
+				"description": "Red social simple"
+			},
+			"3": {
+				"title": "Currículum",
+				"description": "Mi currīculum vitae en línea"
+			},
+			"4": {
+				"title": "App Web Lecturas",
+				"description": "Plataforma para el colegio Linus Pauling"
+			},
+			"5": {
+				"title": "Team Organizer",
+				"description": "Módulo para el sitio web “México Trasciende”"
+			},
+			"6": {
+				"title": "Ecowatering Plants",
+				"description": "Sitio web para proyecto escolar con PHP"
+			},
+			"7": {
+				"title": "Fixstone landing page",
+				"description": "Prototipo de página de inicio para Fixstone"
+			},
+			"8": {
+				"title": "Piedra, papel, o tijeras",
+				"description": "Juego de piedra, papel o tijeras con JS y Sass"
+			},
+			"9": {
+				"title": "Natours landing page",
+				"description": "Landing page con Sass (no responsive)"
+			},
+			"10": {
+				"title": "BuntiApp",
+				"description": "Aplicación móvil para proyecto escolar"
+			},
+			"11": {
+				"title": "Eco Guardianes",
+				"description": "Aplicación móvil para la organización Ciclo-Pep"
+			}
+		}
+	},
+	"CONTACT": {
+		"title": {
+			"1": "CONTACTO"
+		},
+		"FORM": {
+			"getInTouch": "Ponte en contacto",
+			"name": "Ingresa tu nombre",
+			"email": "Ingresa tu correo",
+			"subject": "Asunto",
+			"message": "Mensaje",
+			"send": "ENVIAR"
+		},
+		"INFO": {
+			"address": {
+				"title": "Dirección",
+				"description": "Calle Pirul #6 Mzna. Godo, Dextho de Victoria, San Salvador Hgo. C.P. 42640"
+			},
+			"phone": {
+				"title": "Teléfono",
+				"description": "(+52) 771 415 2997"
+			},
+			"email": {
+				"title": "Correo electrónico",
+				"description": "dsalas035@gmail.com"
+			}
+		}
+	},
+	"LEGAL": {
+		"madeBy": "2020 por Juan Diego Salas Jimenez"
+	}
+}

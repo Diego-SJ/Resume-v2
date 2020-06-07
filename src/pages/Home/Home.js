@@ -1,14 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { CONTACT, LINKEDIN, GITHUB, HOME } from '../../routes/routes';
+import { useTranslation } from 'react-i18next';
 import SlideMenu from '../../layouts/SlideMenu';
 import Icon from '../../components/Icon';
-import { CONTACT, LINKEDIN, GITHUB, HOME } from '../../routes/routes';
 
 import './Home.scss';
 import videoParticles from '../../assets/video/particles.mp4';
 import videoParticlesWeb from '../../assets/video/particles.mp4';
 
 export default function Home() {
+	const { t } = useTranslation();
 	const { phone } = ['+527714152997'];
 	return (
 		<>
@@ -23,14 +25,10 @@ export default function Home() {
 				</div>
 				<div className='welcome-message'>
 					<h1 className='primary'>
-						<span>Hi! I am </span> Juan Diego Salas Jiménez
+						<span>{t('HOME.hiIam.1')} </span> Juan Diego Salas Jiménez
 					</h1>
 					<div className='welcome-message__secondary'>
-						<p className='paragraph'>
-							Being part of a company where I can put into practice all my knowledge,
-							to give me the opportunity to reach all my goals set, and that offers me
-							the opportunity to grow in the area work, personal and intellectual.
-						</p>
+						<p className='paragraph'>{t('HOME.objetive.1')}</p>
 					</div>
 					<div className='welcome-message__social'>
 						<ul className='social'>

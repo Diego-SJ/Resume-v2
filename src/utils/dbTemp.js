@@ -2,33 +2,33 @@
 export const PersonalData = [
 	{
 		id: 1,
-		title: 'Full name',
-		subtitle: 'Juan Diego Salas Jiménez',
+		title: 'ABOUT.fullName.1',
+		description: 'ABOUT.fullName.2',
 	},
 	{
 		id: 2,
-		title: 'Age',
-		subtitle: '21',
+		title: 'ABOUT.age.1',
+		description: '21',
 	},
 	{
 		id: 3,
-		title: 'Birthday',
-		subtitle: '9/12/1998',
+		title: 'ABOUT.birthday.1',
+		description: '9/12/1998',
 	},
 	{
 		id: 4,
-		title: 'Nationality',
-		subtitle: 'Mexican',
+		title: 'ABOUT.nationality.1',
+		description: 'ABOUT.nationality.2',
 	},
 	{
 		id: 5,
-		title: 'Languages',
-		subtitle: 'Spanish (Native) - English (A2)',
+		title: 'ABOUT.languages.1',
+		description: 'ABOUT.languages.2',
 	},
 	{
 		id: 6,
-		title: 'Marital status',
-		subtitle: 'Single',
+		title: 'ABOUT.maritalStatus.1',
+		description: 'ABOUT.maritalStatus.2',
 	},
 ];
 
@@ -36,23 +36,20 @@ export const Services = [
 	{
 		id: 1,
 		icon: 'layers',
-		title: 'Web design',
-		description:
-			'The interface must project the corporate image of the client, its essence and values must be understood beyond placing only the logo.',
+		title: 'ABOUT.SERVICE.title.1',
+		description: 'ABOUT.SERVICE.description.1',
 	},
 	{
 		id: 2,
 		icon: 'monitor',
-		title: 'Web development',
-		description:
-			'The optimization of the front-end as the back-end of the site; The objective is to control and optimize the website loading process.',
+		title: 'ABOUT.SERVICE.title.2',
+		description: 'ABOUT.SERVICE.description.2',
 	},
 	{
 		id: 3,
 		icon: 'smartphone',
-		title: 'Mobile development',
-		description:
-			'Mobile devices guarantee the practicality we are looking for, so it is necessary that navigation and functionality be designed for mobile phones.',
+		title: 'ABOUT.SERVICE.title.3',
+		description: 'ABOUT.SERVICE.description.3',
 	},
 ];
 
@@ -72,202 +69,191 @@ export const Skills = [
 export const Education = [
 	{
 		id: 1,
-		date: 'Aug 2016 - Present',
-		title: 'Information Technology and Communications Engineering',
-		subtitle:
-			'Instituto Tecnológico Superior del Occidente del Estado de Hidalgo(ITSOEH)',
-		description: 'Mixquiahuala de Juárez Hgo.',
+		date: 'RESUME.EDUCATION.1.date',
+		title: 'RESUME.EDUCATION.1.title',
+		subtitle: 'RESUME.EDUCATION.1.subtitle',
+		description: 'RESUME.EDUCATION.1.description',
 	},
 	{
 		id: 2,
-		date: 'Aug 2013 - Jul 2016',
-		title: 'Programming Technician',
-		subtitle:
-			'Centro de Bachillerato Tecnológico Industrial y de Servicios No. 83',
-		description: 'Actopan Hgo.',
+		date: 'RESUME.EDUCATION.2.date',
+		title: 'RESUME.EDUCATION.2.title',
+		subtitle: 'RESUME.EDUCATION.2.subtitle',
+		description: 'RESUME.EDUCATION.2.description',
 	},
 ];
 
 export const ProfessionalExperience = [
 	{
 		id: 1,
-		date: 'Jun 2019 - Present',
-		title: 'Software developer',
-		subtitle: 'Actosoft Community',
-		description:
-			'Mobile application developer, member of the development team.\nBack-end development for user registration and geolocation of the “Bunti App” mobile app.\nFront-end development of the “Team organizer” module for the “México Trasciende” website, Tecnológico de Monterrey.',
+		date: 'RESUME.PROFESSIONAL_EXPERIENCE.1.date',
+		title: 'RESUME.PROFESSIONAL_EXPERIENCE.1.title',
+		subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.1.subtitle',
+		description: 'RESUME.PROFESSIONAL_EXPERIENCE.1.description',
 	},
 	{
 		id: 2,
-		date: 'Dec 2019 - Present',
-		title: 'Freelancer',
-		subtitle: 'Freelancer',
-		description:
-			'Development of the “Meet” web platform, Mixquiahuala de Juárez (In Process).',
+		date: 'RESUME.PROFESSIONAL_EXPERIENCE.2.date',
+		title: 'RESUME.PROFESSIONAL_EXPERIENCE.2.title',
+		subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.2.subtitle',
+		description: 'RESUME.PROFESSIONAL_EXPERIENCE.2.description',
 	},
 	{
 		id: 3,
-		date: 'Jun 2019 - Dec 2019',
-		title: 'Web developer',
-		subtitle: 'Colegio Linus Pauling',
-		description:
-			'Development of the “App Web Lecturas” platform to record, analyze and present data on learning in the Linus Pauling school, Progreso de Obregón.',
+		date: 'RESUME.PROFESSIONAL_EXPERIENCE.3.date',
+		title: 'RESUME.PROFESSIONAL_EXPERIENCE.3.title',
+		subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.3.subtitle',
+		description: 'RESUME.PROFESSIONAL_EXPERIENCE.3.description',
 	},
 	{
 		id: 4,
-		date: 'Aug 2017 - Dec 2017',
-		title: 'Mobile developer and designer',
-		subtitle: 'Ciclo-pep',
-		description:
-			'Member of the back-end and front-end development team of the “Eco Guardianes” mobile app.',
+		date: 'RESUME.PROFESSIONAL_EXPERIENCE.4.date',
+		title: 'RESUME.PROFESSIONAL_EXPERIENCE.4.title',
+		subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.4.subtitle',
+		description: 'RESUME.PROFESSIONAL_EXPERIENCE.4.description',
 	},
 ];
 
 export const Recognitions = [
 	{
 		id: 1,
-		date: 'Present',
-		title: 'Course "CCNA R&S: Scaling Networks" by Cisco and ITSOEH.',
+		date: 'RESUME.RECOGNITIONS.1.date',
+		title: 'RESUME.RECOGNITIONS.1.title',
 	},
 	{
 		id: 2,
-		date: 'Present',
-		title: 'Course "Cybersecurity Essentials" by Cisco and ITSOEH.',
+		date: 'RESUME.RECOGNITIONS.2.date',
+		title: 'RESUME.RECOGNITIONS.2.title',
 	},
 	{
 		id: 3,
-		date: 'Oct 2019',
-		title:
-			'description No.18 nationwide in the "Coding CupTecNM" programming contest.',
+		date: 'RESUME.RECOGNITIONS.3.date',
+		title: 'RESUME.RECOGNITIONS.3.title',
 	},
 	{
 		id: 4,
-		date: 'Jan 2019',
-		title: 'Course "CCNA R&S: Connecting Networks" by Cisco and ITSOEH.',
+		date: 'RESUME.RECOGNITIONS.4.date',
+		title: 'RESUME.RECOGNITIONS.4.title',
 	},
 	{
 		id: 5,
-		date: 'Aug 2018',
-		title:
-			'Course "CCNA R&S: Routing and Switching Essentials" by Cisco and ITSOEH.',
+		date: 'RESUME.RECOGNITIONS.5.date',
+		title: 'RESUME.RECOGNITIONS.5.title',
 	},
 	{
 		id: 6,
-		date: 'May 2018',
-		title:
-			'Participation in the course "Diseña tu propia página web desde 0" Provided by SoftMotion.',
+		date: 'RESUME.RECOGNITIONS.6.date',
+		title: 'RESUME.RECOGNITIONS.6.title',
 	},
 	{
 		id: 7,
-		date: 'Oct 2018',
-		title:
-			'1st description in the "Rally Latinoamericano de innovación" at headquarters level.',
+		date: 'RESUME.RECOGNITIONS.7.date',
+		title: 'RESUME.RECOGNITIONS.7.title',
 	},
 	{
 		id: 8,
-		date: 'Jan 2017',
-		title: 'Course "CCNA R&S: Introduction to Networks" by Cisco and ITSOEH.',
+		date: 'RESUME.RECOGNITIONS.8.date',
+		title: 'RESUME.RECOGNITIONS.8.title',
 	},
 	{
 		id: 9,
-		date: 'Jun 2015',
-		title:
-			'Accreditation of competences in Microsoft Technologies for productivity (Word, Excel and PowerPoint) by SEP and Microsoft Mexico.',
+		date: 'RESUME.RECOGNITIONS.9.date',
+		title: 'RESUME.RECOGNITIONS.9.title',
 	},
 ];
 
 // * INFO PORTFOLIO PAGE
 
-const img_p01 = require('../assets/img/portfolios/awl.jpg');
-const img_p02 = require('../assets/img/portfolios/mtw.jpg');
-const img_p03 = require('../assets/img/portfolios/bunti.jpg');
-const img_p04 = require('../assets/img/portfolios/egcp.jpg');
-const img_p05 = require('../assets/img/portfolios/meet.jpg');
-const img_p06 = require('../assets/img/portfolios/cvra.jpg');
-const img_p07 = require('../assets/img/portfolios/ecowatering.jpg');
-const img_p08 = require('../assets/img/portfolios/fixstone.jpg');
-const img_p09 = require('../assets/img/portfolios/prs.jpg');
-const img_p10 = require('../assets/img/portfolios/natours.jpg');
-const img_p11 = require('../assets/img/portfolios/paleteria.jpg');
+const img_p1 = require('../assets/img/portfolios/paleteria.jpg');
+const img_p2 = require('../assets/img/portfolios/meet.jpg');
+const img_p3 = require('../assets/img/portfolios/cvra.jpg');
+const img_p4 = require('../assets/img/portfolios/awl.jpg');
+const img_p5 = require('../assets/img/portfolios/mtw.jpg');
+const img_p6 = require('../assets/img/portfolios/ecowatering.jpg');
+const img_p7 = require('../assets/img/portfolios/fixstone.jpg');
+const img_p8 = require('../assets/img/portfolios/prs.jpg');
+const img_p9 = require('../assets/img/portfolios/natours.jpg');
+const img_p10 = require('../assets/img/portfolios/bunti.jpg');
+const img_p11 = require('../assets/img/portfolios/egcp.jpg');
 
 export const PortfolioInfo = [
 	{
-		id: 11,
-		image: img_p11,
-		link: 'https://github.com/Diego-SJ/PaleteriaChuchin',
-		title: 'Paleteria Chuchin',
-		description: 'Desktop application with Electron, React and Firebase',
-	},
-	{
 		id: 1,
-		image: img_p05,
-		link: 'https://github.com/Diego-SJ/Meet',
-		title: 'Meet platform',
-		description: 'Simple social network',
+		image: img_p1,
+		link: 'https://github.com/Diego-SJ/PaleteriaChuchin',
+		title: 'PORTFOLIO.ITEM.1.title',
+		description: 'PORTFOLIO.ITEM.1.description',
 	},
 	{
 		id: 2,
-		image: img_p06,
-		link: 'https://github.com/Diego-SJ/Resume-v2',
-		title: 'My resume',
-		description: 'My resume online',
+		image: img_p2,
+		link: 'https://github.com/Diego-SJ/Meet',
+		title: 'PORTFOLIO.ITEM.2.title',
+		description: 'PORTFOLIO.ITEM.2.description',
 	},
 	{
 		id: 3,
-		image: img_p01,
-		link: 'https://linuspauling2.000webhostapp.com/awl/',
-		title: 'App Web Lecturas',
-		description: 'Platform for Linus Pauling Collage',
+		image: img_p3,
+		link: 'https://github.com/Diego-SJ/Resume-v2',
+		title: 'PORTFOLIO.ITEM.3.title',
+		description: 'PORTFOLIO.ITEM.3.description',
 	},
 	{
 		id: 4,
-		image: img_p02,
+		image: img_p4,
+		link: 'https://linuspauling2.000webhostapp.com/awl/',
+		title: 'PORTFOLIO.ITEM.4.title',
+		description: 'PORTFOLIO.ITEM.4.description',
+	},
+	{
+		id: 5,
+		image: img_p5,
 		link:
 			'https://github.com/ActoSoft/MexicoTrasciende-Frontend/tree/feature/team_organizer',
-		title: 'Team Organizer',
-		description: 'Module for the “México Trasciende” website',
+		title: 'PORTFOLIO.ITEM.5.title',
+		description: 'PORTFOLIO.ITEM.5.description',
+	},
+	{
+		id: 6,
+		image: img_p6,
+		link: 'https://ecowateringplants.000webhostapp.com/ecowateringplants.com/',
+		title: 'PORTFOLIO.ITEM.6.title',
+		description: 'PORTFOLIO.ITEM.6.description',
 	},
 	{
 		id: 7,
-		image: img_p07,
-		link: 'https://ecowateringplants.000webhostapp.com/ecowateringplants.com/',
-		title: 'Ecowatering Plants',
-		description: 'Website for school project',
+		image: img_p7,
+		link: 'https://diego-sj.github.io/Fixstone-Website/',
+		title: 'PORTFOLIO.ITEM.7.title',
+		description: 'PORTFOLIO.ITEM.7.description',
 	},
 	{
 		id: 8,
-		image: img_p08,
-		link: 'https://diego-sj.github.io/Fixstone-Website/',
-		title: 'Fixstone landing page',
-		description: 'Fixstone landing page prototype',
+		image: img_p8,
+		link: 'https://diego-sj.github.io/ui-psr/',
+		title: 'PORTFOLIO.ITEM.8.title',
+		description: 'PORTFOLIO.ITEM.8.description',
 	},
 	{
 		id: 9,
-		image: img_p09,
-		link: 'https://diego-sj.github.io/ui-psr/',
-		title: 'Paper, rock or scissors',
-		description: 'Game of paper rock or scissors with js and Sass',
+		image: img_p9,
+		link: 'https://diego-sj.github.io/Natours-With-Sass/',
+		title: 'PORTFOLIO.ITEM.9.title',
+		description: 'PORTFOLIO.ITEM.9.description',
 	},
 	{
 		id: 10,
 		image: img_p10,
-		link: 'https://diego-sj.github.io/Natours-With-Sass/',
-		title: 'Natours landing page',
-		description: 'Landing page with Sass (no responsive)',
-	},
-	{
-		id: 5,
-		image: img_p03,
 		link: 'https://github.com/ActoSoft/buntiAppMobile',
-		title: 'BuntiApp',
-		description: 'Mobile app',
+		title: 'PORTFOLIO.ITEM.10.title',
+		description: 'PORTFOLIO.ITEM.10.description',
 	},
 	{
-		id: 6,
-		image: img_p04,
+		id: 11,
+		image: img_p11,
 		link: null,
-		title: 'BuntiEco GuardianesApp',
-		description: 'Mobile App for Ciclo-Pep',
+		title: 'PORTFOLIO.ITEM.11.title',
+		description: 'PORTFOLIO.ITEM.11.description',
 	},
 ];
 
@@ -277,20 +263,19 @@ export const ContactInfo = [
 	{
 		id: 1,
 		icon: 'map-pin',
-		title: 'Address',
-		description:
-			'Pirul Street # 6 Mzna. Godo, Victoria Dextho, San Salvador Hgo. 42640',
+		title: 'CONTACT.INFO.address.title',
+		description: 'CONTACT.INFO.address.description',
 	},
 	{
 		id: 2,
 		icon: 'phone',
-		title: 'Phone',
-		description: '(+52) 771 415 29 97',
+		title: 'CONTACT.INFO.phone.title',
+		description: 'CONTACT.INFO.phone.description',
 	},
 	{
 		id: 3,
 		icon: 'at-sign',
-		title: 'Email',
-		description: 'dsalas035@gmail.com',
+		title: 'CONTACT.INFO.email.title',
+		description: 'CONTACT.INFO.email.description',
 	},
 ];

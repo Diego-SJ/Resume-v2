@@ -1,0 +1,229 @@
+{
+	"HOME": {
+		"title": "HOME",
+		"hiIam": {
+			"1": "Hi! I am"
+		},
+		"objetive": {
+			"1": "Being part of a company where I can put into practice all my knowledge, to give me the opportunity to reach all my goals set, and that offers me the opportunity to grow in the area work, personal and intellectual."
+		}
+	},
+	"ABOUT": {
+		"title": {
+			"1": "ABOUT",
+			"2": "ABOUT ME",
+			"3": "SERVICES"
+		},
+		"iam": {
+			"1": "Iam"
+		},
+		"info": {
+			"1": "Engineering student in Information Technology and Communications."
+		},
+		"fullName": {
+			"1": "Full name",
+			"2": "Juan Diego Salas Jiménez"
+		},
+		"age": {
+			"1": "Age"
+		},
+		"birthday": {
+			"1": "Birthday"
+		},
+		"nationality": {
+			"1": "Nationality",
+			"2": "Mexican"
+		},
+		"languages": {
+			"1": "Languages",
+			"2": "Spanish (Native) - English (A2)"
+		},
+		"maritalStatus": {
+			"1": "Marital status",
+			"2": "Single"
+		},
+		"downloadResume": {
+			"1": "DOWNLOAD RESUME"
+		},
+		"SERVICE": {
+			"title": {
+				"1": "Web design",
+				"2": "Web development",
+				"3": "Mobile development"
+			},
+			"description": {
+				"1": "The interface must project the corporate image of the client, its essence and values must be understood beyond placing only the logo.",
+				"2": "The optimization of the front-end as the back-end of the site; The objective is to control and optimize the website loading process.",
+				"3": "Mobile devices guarantee the practicality we are looking for, so it is necessary that navigation and functionality be designed for mobile phones."
+			}
+		}
+	},
+	"RESUME": {
+		"title": {
+			"1": "RESUME",
+			"2": "SKILLS",
+			"3": "EDUCATION",
+			"4": "PROFESSIONAL EXPERIENCE",
+			"5": "RECOGNITIONS AND COURSES"
+		},
+		"EDUCATION": {
+			"1": {
+				"date": "Aug. 2016 - Present",
+				"title": "Information Technology and Communications Engineering",
+				"subtitle": "Instituto Tecnológico Superior del Occidente del Estado de Hidalgo (ITSOEH)",
+				"description": "Mixquiahuala de Juárez Hgo."
+			},
+			"2": {
+				"date": "Aug. 2013 - Jul. 2016",
+				"title": "Programming Technician",
+				"subtitle": "Centro de Bachillerato Tecnológico Industrial y de Servicios No. 83",
+				"description": "Actopan Hgo."
+			}
+		},
+		"PROFESSIONAL_EXPERIENCE": {
+			"1": {
+				"date": "Jun. 2019 - Present",
+				"title": "Software developer",
+				"subtitle": "Actosoft Community",
+				"description": "Mobile application developer, member of the development team.\nBack-end development for user registration and geolocation of the “Bunti App” mobile app.\nFront-end development of the “Team organizer” module for the “México Trasciende” website, Tecnológico de Monterrey."
+			},
+			"2": {
+				"date": "Dec. 2019 - Present",
+				"title": "Freelancer",
+				"subtitle": "Freelancer",
+				"description": "Development of the “Meet” web platform, Mixquiahuala de Juárez (In Process)."
+			},
+			"3": {
+				"date": "Jun. 2019 - Dec. 2019",
+				"title": "Web developer",
+				"subtitle": "Colegio Linus Pauling",
+				"description": "Development of the “App Web Lecturas” platform to record, analyze and show data about learning in the Linus Pauling school, Progreso de Obregón."
+			},
+			"4": {
+				"date": "Aug. 2017 - Dec. 2017",
+				"title": "Mobile developer and designer",
+				"subtitle": "Ciclo-pep",
+				"description": "Member of the back-end and front-end development team of the “Eco Guardianes” mobile app."
+			}
+		},
+		"RECOGNITIONS": {
+			"1": {
+				"date": "Present",
+				"title": "Course \"CCNA R&S: Scaling Networks\" by Cisco and ITSOEH."
+			},
+			"2": {
+				"date": "Present",
+				"title": "Course \"Cybersecurity Essentials\" by Cisco and ITSOEH."
+			},
+			"3": {
+				"date": "Oct. 2019",
+				"title": "Position No. 18 in the programming competition \"Coding CupTecNM\"."
+			},
+			"4": {
+				"date": "Jan. 2019",
+				"title": "Course \"CCNA R&S: Connecting Networks\" by Cisco and ITSOEH."
+			},
+			"5": {
+				"date": "Aug. 2018",
+				"title": "Course \"CCNA R&S: Routing and Switching Essentials\" by Cisco and ITSOEH."
+			},
+			"6": {
+				"date": "May. 2018",
+				"title": "Participation in the course \"Diseña tu propia página web desde 0\" by SoftMotion."
+			},
+			"7": {
+				"date": "Oct. 2018",
+				"title": "1st position in the \"Rally Latinoamericano de innovación\" at headquarters level."
+			},
+			"8": {
+				"date": "Jan. 2017",
+				"title": "Course \"CCNA R&S: Introduction to Networks\" by Cisco and ITSOEH."
+			},
+			"9": {
+				"date": "Jun. 2015",
+				"title": "Accreditation of competences in Microsoft technologies for productivity (Word, Excel and PowerPoint) by SEP and Microsoft Mexico."
+			}
+		}
+	},
+	"PORTFOLIO": {
+		"title": {
+			"1": "PORTFOLIO"
+		},
+		"ITEM": {
+			"1": {
+				"title": "Chuchin Ice Cream Shop",
+				"description": "Desktop application with Electron, React and Firebase"
+			},
+			"2": {
+				"title": "Meet platform",
+				"description": "Simple social network"
+			},
+			"3": {
+				"title": "My resume",
+				"description": "My resume online"
+			},
+			"4": {
+				"title": "App Web Lecturas",
+				"description": "Platform for Linus Pauling Collage"
+			},
+			"5": {
+				"title": "Team Organizer",
+				"description": "Module for the “México Trasciende” website"
+			},
+			"6": {
+				"title": "Ecowatering Plants",
+				"description": "Website for school project with PHP"
+			},
+			"7": {
+				"title": "Fixstone landing page",
+				"description": "Fixstone landing page prototype"
+			},
+			"8": {
+				"title": "Paper, rock or scissors",
+				"description": "Game of paper, rock or scissors with JS and Sass"
+			},
+			"9": {
+				"title": "Natours landing page",
+				"description": "Landing page with Sass (no responsive)"
+			},
+			"10": {
+				"title": "BuntiApp",
+				"description": "Mobile application for school project"
+			},
+			"11": {
+				"title": "Eco Guardianes",
+				"description": "Mobile application for the Ciclo-Pep organization"
+			}
+		}
+	},
+	"CONTACT": {
+		"title": {
+			"1": "CONTACT"
+		},
+		"FORM": {
+			"getInTouch": "Get in touch",
+			"name": "Enter your name",
+			"email": "Enter yout email",
+			"subject": "Your subject",
+			"message": "Your message",
+			"send": "SEND EMAIL"
+		},
+		"INFO": {
+			"address": {
+				"title": "Address",
+				"description": "Pirul Street #6 Mzna. Godo, Dextho de Victoria, San Salvador Hgo. Zip 42640"
+			},
+			"phone": {
+				"title": "Phone",
+				"description": "(+52) 771 415 2997"
+			},
+			"email": {
+				"title": "Email",
+				"description": "dsalas035@gmail.com"
+			}
+		}
+	},
+	"LEGAL": {
+		"madeBy": "2020 by Juan Diego Salas Jimenez"
+	}
+}
