@@ -11,7 +11,7 @@ import videoParticlesWeb from '../../assets/video/particles.mp4';
 
 export default function Home() {
 	const { t } = useTranslation();
-	const { phone } = ['+527714152997'];
+	const phone = '+527714152997';
 	return (
 		<>
 			<SlideMenu currentPage={HOME} />
@@ -45,6 +45,16 @@ export default function Home() {
 									rel='noopener noreferrer'
 								>
 									<Icon icon='phone' className='social-item__icon' />
+								</a>
+							</li>
+							<li className='social-item'>
+								<a
+									href={`https://api.whatsapp.com/send?phone=${phone}`}
+									className='social-item__content'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									<Icon icon='whatsapp' className='social-item__icon' />
 								</a>
 							</li>
 							<li className='social-item'>

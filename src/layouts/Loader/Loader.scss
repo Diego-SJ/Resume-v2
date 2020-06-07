@@ -1,0 +1,25 @@
+@import '../../sass/main.scss';
+
+.loader {
+	height: 100vh;
+	min-height: 100vh;
+	width: 100vw;
+	min-width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: $gray-dark;
+
+	&-icon {
+		height: 10%;
+		color: $primary !important;
+		animation: turn360 1s linear infinite;
+	}
+
+	> span {
+		color: $light;
+		font: 1rem;
+		margin-top: 2rem;
+	}
+}
