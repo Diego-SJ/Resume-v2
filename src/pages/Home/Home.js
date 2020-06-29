@@ -69,6 +69,16 @@ export default function Home() {
 							</li>
 							<li className='social-item'>
 								<a
+									href={`https://medium.com/@diegosj`}
+									className='social-item__content'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									<Icon icon='medium' className='social-item__icon' />
+								</a>
+							</li>
+							<li className='social-item'>
+								<a
 									href={GITHUB}
 									className='social-item__content'
 									target='_blank'
