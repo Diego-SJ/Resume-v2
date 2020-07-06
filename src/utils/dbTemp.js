@@ -175,6 +175,7 @@ const img_p8 = require('../assets/img/portfolios/prs.jpg');
 const img_p9 = require('../assets/img/portfolios/natours.jpg');
 const img_p10 = require('../assets/img/portfolios/bunti.jpg');
 const img_p11 = require('../assets/img/portfolios/egcp.jpg');
+const img_p12 = require('../assets/img/portfolios/ramapi.jpg');
 
 export const PortfolioInfo = [
 	{
@@ -254,6 +255,13 @@ export const PortfolioInfo = [
 		link: null,
 		title: 'PORTFOLIO.ITEM.11.title',
 		description: 'PORTFOLIO.ITEM.11.description',
+	},
+	{
+		id: 12,
+		image: img_p12,
+		link: 'https://rickandmorty-api.netlify.app/',
+		title: 'PORTFOLIO.ITEM.12.title',
+		description: 'PORTFOLIO.ITEM.12.description',
 	},
 ];
 

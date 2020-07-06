@@ -62,7 +62,7 @@
 	},
 	"RESUME": {
 		"title": {
-			"1": "RESUME",
+			"1": "CURRICULUM",
 			"objective": "OBJETIVO PROFESIONAL",
 			"skills": "HABILIDADES",
 			"education": "EDUCACIÓN",
@@ -199,6 +199,10 @@
 			"11": {
 				"title": "Eco Guardianes",
 				"description": "Aplicación móvil para la organización Ciclo-Pep"
+			},
+      "12": {
+				"title": "API Rick y Morty",
+				"description": "Consumo de la API de Rick y Morty"
 			}
 		}
 	},
