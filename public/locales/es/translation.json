@@ -114,12 +114,12 @@
 		},
 		"RECOGNITIONS": {
 			"1": {
-				"date": "Actualmente",
-				"title": "Curso \"CCNA R&S: Scaling Networks\" por Cisco e ITSOEH."
+				"date": "May. 2020",
+				"title": "Curso \"Cybersecurity Essentials\" por Cisco e ITSOEH."
 			},
 			"2": {
-				"date": "Actualmente",
-				"title": "Curso \"Cybersecurity Essentials\" por Cisco e ITSOEH."
+				"date": "Jul. 2019",
+				"title": "Curso \"CCNA R&S: Scaling Networks\" por Cisco e ITSOEH."
 			},
 			"3": {
 				"date": "Oct. 2019",
@@ -157,52 +157,60 @@
 		},
 		"ITEM": {
 			"1": {
-				"title": "Paleteria Chuchin",
-				"description": "Aplicación de escritorio con Electron, React y Firebase"
+				"title": "Ecowatering Plants",
+				"description": "PHP (Codeigniter) - HTML - CSS"
 			},
 			"2": {
-				"title": "Plataforma Meet",
-				"description": "Red social simple"
-			},
-			"3": {
-				"title": "Currículum",
-				"description": "Mi currīculum vitae en línea"
-			},
-			"4": {
 				"title": "App Web Lecturas",
-				"description": "Plataforma para el colegio Linus Pauling"
+				"description": "PHP (Codeigniter) - CSS - Javascrirpt - JQuery"
 			},
-			"5": {
-				"title": "Team Organizer",
-				"description": "Módulo para el sitio web “México Trasciende”"
+      "3": {
+				"title": "Natours landing page",
+				"description": "HTML - SASS"
 			},
-			"6": {
-				"title": "Ecowatering Plants",
-				"description": "Sitio web para proyecto escolar con PHP"
+      "4": {
+				"title": "Reading list",
+				"description": "REACT - TypeScript - Styled components"
 			},
-			"7": {
-				"title": "Fixstone landing page",
-				"description": "Prototipo de página de inicio para Fixstone"
+      "5": {
+				"title": "Horarios",
+				"description": "REACT - Firebase"
+			},
+      "6": {
+				"title": "API Rick y Morty",
+				"description": "REACT - CSS - HTML"
+			},
+      "7": {
+				"title": "Piedra, papel, o tijeras",
+				"description": "Javascript - SASS"
 			},
 			"8": {
-				"title": "Piedra, papel, o tijeras",
-				"description": "Juego de piedra, papel o tijeras con JS y Sass"
+				"title": "Fixstone landing page",
+				"description": "HTML - Bootstrap - CSS"
 			},
 			"9": {
-				"title": "Natours landing page",
-				"description": "Landing page con Sass (no responsive)"
+				"title": "Paleteria Chuchin",
+				"description": "Electron - REACT - Firebase"
 			},
 			"10": {
-				"title": "BuntiApp",
-				"description": "Aplicación móvil para proyecto escolar"
+				"title": "Plataforma Meet",
+				"description": "REACT - Express - Mongo DB"
 			},
 			"11": {
-				"title": "Eco Guardianes",
-				"description": "Aplicación móvil para la organización Ciclo-Pep"
+				"title": "Currículum",
+				"description": "REACT - SASS"
 			},
-      "12": {
-				"title": "API Rick y Morty",
-				"description": "Consumo de la API de Rick y Morty"
+			"12": {
+				"title": "Team Organizer",
+				"description": "REACT - CSS"
+			},
+			"13": {
+				"title": "BuntiApp",
+				"description": "Java - Firebase"
+			},
+			"14": {
+				"title": "Eco Guardianes",
+				"description": "Java"
 			}
 		}
 	},

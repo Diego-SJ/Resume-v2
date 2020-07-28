@@ -114,12 +114,12 @@
 		},
 		"RECOGNITIONS": {
 			"1": {
-				"date": "Present",
-				"title": "Course \"CCNA R&S: Scaling Networks\" by Cisco and ITSOEH."
-			},
-			"2": {
-				"date": "Present",
+				"date": "May. 2020",
 				"title": "Course \"Cybersecurity Essentials\" by Cisco and ITSOEH."
+			},
+      "2": {
+				"date": "Jul. 2019",
+				"title": "Course \"CCNA R&S: Scaling Networks\" by Cisco and ITSOEH."
 			},
 			"3": {
 				"date": "Oct. 2019",
@@ -157,52 +157,60 @@
 		},
 		"ITEM": {
 			"1": {
-				"title": "Chuchin Ice Cream Shop",
-				"description": "Desktop application with Electron, React and Firebase"
+				"title": "Ecowatering Plants",
+				"description": "PHP (Codeigniter) - HTML - CSS"
 			},
 			"2": {
-				"title": "Meet platform",
-				"description": "Simple social network"
-			},
-			"3": {
-				"title": "My resume",
-				"description": "My resume online"
-			},
-			"4": {
 				"title": "App Web Lecturas",
-				"description": "Platform for Linus Pauling Collage"
+				"description": "PHP (Codeigniter) - CSS - Javascrirpt - JQuery"
 			},
-			"5": {
-				"title": "Team Organizer",
-				"description": "Module for the “México Trasciende” website"
+      "3": {
+				"title": "Natours landing page",
+				"description": "HTML - SASS"
 			},
-			"6": {
-				"title": "Ecowatering Plants",
-				"description": "Website for school project with PHP"
+      "4": {
+				"title": "Reading list",
+				"description": "REACT - TypeScript - Styled components"
 			},
-			"7": {
-				"title": "Fixstone landing page",
-				"description": "Fixstone landing page prototype"
+      "5": {
+				"title": "Schedule",
+				"description": "REACT - Firebase"
+			},
+      "6": {
+				"title": "Rick and Morty API",
+				"description": "REACT - CSS - HTML"
+			},
+      "7": {
+				"title": "Rock, papper, or scissors",
+				"description": "Javascript - SASS"
 			},
 			"8": {
-				"title": "Paper, rock or scissors",
-				"description": "Game of paper, rock or scissors with JS and Sass"
+				"title": "Fixstone landing page",
+				"description": "HTML - Bootstrap - CSS"
 			},
 			"9": {
-				"title": "Natours landing page",
-				"description": "Landing page with Sass (no responsive)"
+				"title": "Paleteria Chuchin",
+				"description": "Electron - REACT - Firebase"
 			},
 			"10": {
-				"title": "BuntiApp",
-				"description": "Mobile application for school project"
+				"title": "Meet platform",
+				"description": "REACT - Express - Mongo DB"
 			},
 			"11": {
-				"title": "Eco Guardianes",
-				"description": "Mobile application for the Ciclo-Pep organization"
+				"title": "Resume",
+				"description": "REACT - SASS"
 			},
-      "12": {
-				"title": "Rick and Morty API",
-				"description": "Rick and Morty API consumption"
+			"12": {
+				"title": "Team Organizer",
+				"description": "REACT - CSS"
+			},
+			"13": {
+				"title": "BuntiApp",
+				"description": "Java - Firebase"
+			},
+			"14": {
+				"title": "Eco Guardianes",
+				"description": "Java"
 			}
 		}
 	},

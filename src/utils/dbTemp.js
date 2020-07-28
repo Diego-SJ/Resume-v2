@@ -1,3 +1,5 @@
+import { v4 as uuidv4 } from 'uuid';
+
 // * INFO ABOUT PAGE
 export const PersonalData = [
 	{
@@ -55,6 +57,7 @@ export const Services = [
 
 // * INFO RESUME PAGE
 export const Skills = [
+  { id: 0, title: 'REACT', percentage: '90' },
 	{ id: 1, title: 'HTML', percentage: '90' },
 	{ id: 2, title: 'CSS', percentage: '85' },
 	{ id: 3, title: 'JAVASCRIPT', percentage: '85' },
@@ -91,13 +94,13 @@ export const ProfessionalExperience = [
 		subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.1.subtitle',
 		description: 'RESUME.PROFESSIONAL_EXPERIENCE.1.description',
 	},
-	{
-		id: 2,
-		date: 'RESUME.PROFESSIONAL_EXPERIENCE.2.date',
-		title: 'RESUME.PROFESSIONAL_EXPERIENCE.2.title',
-		subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.2.subtitle',
-		description: 'RESUME.PROFESSIONAL_EXPERIENCE.2.description',
-	},
+	// {
+	// 	id: 2,
+	// 	date: 'RESUME.PROFESSIONAL_EXPERIENCE.2.date',
+	// 	title: 'RESUME.PROFESSIONAL_EXPERIENCE.2.title',
+	// 	subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.2.subtitle',
+	// 	description: 'RESUME.PROFESSIONAL_EXPERIENCE.2.description',
+	// },
 	{
 		id: 3,
 		date: 'RESUME.PROFESSIONAL_EXPERIENCE.3.date',
@@ -164,104 +167,105 @@ export const Recognitions = [
 
 // * INFO PORTFOLIO PAGE
 
-const img_p1 = require('../assets/img/portfolios/paleteria.jpg');
-const img_p2 = require('../assets/img/portfolios/meet.jpg');
-const img_p3 = require('../assets/img/portfolios/cvra.jpg');
-const img_p4 = require('../assets/img/portfolios/awl.jpg');
-const img_p5 = require('../assets/img/portfolios/mtw.jpg');
-const img_p6 = require('../assets/img/portfolios/ecowatering.jpg');
-const img_p7 = require('../assets/img/portfolios/fixstone.jpg');
-const img_p8 = require('../assets/img/portfolios/prs.jpg');
-const img_p9 = require('../assets/img/portfolios/natours.jpg');
-const img_p10 = require('../assets/img/portfolios/bunti.jpg');
-const img_p11 = require('../assets/img/portfolios/egcp.jpg');
-const img_p12 = require('../assets/img/portfolios/ramapi.jpg');
-
 export const PortfolioInfo = [
 	{
-		id: 1,
-		image: img_p1,
-		link: 'https://github.com/Diego-SJ/PaleteriaChuchin',
+		id: uuidv4(),
+		image: require('../assets/img/portfolios/ecowatering.jpg'),
+		link: 'https://ecowateringplants.000webhostapp.com/ecowateringplants.com/',
 		title: 'PORTFOLIO.ITEM.1.title',
 		description: 'PORTFOLIO.ITEM.1.description',
 	},
 	{
-		id: 2,
-		image: img_p2,
-		link: 'https://github.com/Diego-SJ/Meet',
+		id: uuidv4(),
+		image: require('../assets/img/portfolios/awl.jpg'),
+		link: 'https://linuspauling2.000webhostapp.com/awl/',
 		title: 'PORTFOLIO.ITEM.2.title',
 		description: 'PORTFOLIO.ITEM.2.description',
 	},
 	{
-		id: 3,
-		image: img_p3,
-		link: 'https://github.com/Diego-SJ/Resume-v2',
+		id: uuidv4(),
+		image: require('../assets/img/portfolios/natours.jpg'),
+		link: 'https://diego-sj.github.io/Natours-With-Sass/',
 		title: 'PORTFOLIO.ITEM.3.title',
 		description: 'PORTFOLIO.ITEM.3.description',
 	},
 	{
-		id: 4,
-		image: img_p4,
-		link: 'https://linuspauling2.000webhostapp.com/awl/',
+		id: uuidv4(),
+		image: require('../assets/img/portfolios/taskslist.jpg'),
+		link: 'https://tasklist-rtl.netlify.app/',
 		title: 'PORTFOLIO.ITEM.4.title',
 		description: 'PORTFOLIO.ITEM.4.description',
 	},
 	{
-		id: 5,
-		image: img_p5,
-		link:
-			'https://github.com/ActoSoft/MexicoTrasciende-Frontend/tree/feature/team_organizer',
+		id: uuidv4(),
+		image: require('../assets/img/portfolios/empsch.jpg'),
+		link: 'https://prueba-tecnica-habil.netlify.app/',
 		title: 'PORTFOLIO.ITEM.5.title',
 		description: 'PORTFOLIO.ITEM.5.description',
 	},
 	{
-		id: 6,
-		image: img_p6,
-		link: 'https://ecowateringplants.000webhostapp.com/ecowateringplants.com/',
+		id: uuidv4(),
+		image: require('../assets/img/portfolios/ramapi.jpg'),
+		link: 'https://rickandmorty-api.netlify.app/',
 		title: 'PORTFOLIO.ITEM.6.title',
 		description: 'PORTFOLIO.ITEM.6.description',
 	},
 	{
-		id: 7,
-		image: img_p7,
-		link: 'https://diego-sj.github.io/Fixstone-Website/',
+		id: uuidv4(),
+		image: require('../assets/img/portfolios/prs.jpg'),
+		link: 'https://diego-sj.github.io/ui-psr/',
 		title: 'PORTFOLIO.ITEM.7.title',
 		description: 'PORTFOLIO.ITEM.7.description',
 	},
 	{
-		id: 8,
-		image: img_p8,
-		link: 'https://diego-sj.github.io/ui-psr/',
+		id: uuidv4(),
+		image: require('../assets/img/portfolios/fixstone.jpg'),
+		link: 'https://diego-sj.github.io/Fixstone-Website/',
 		title: 'PORTFOLIO.ITEM.8.title',
 		description: 'PORTFOLIO.ITEM.8.description',
 	},
 	{
-		id: 9,
-		image: img_p9,
-		link: 'https://diego-sj.github.io/Natours-With-Sass/',
+		id: uuidv4(),
+		image: require('../assets/img/portfolios/paleteria.jpg'),
+		link: 'https://github.com/Diego-SJ/PaleteriaChuchin',
 		title: 'PORTFOLIO.ITEM.9.title',
 		description: 'PORTFOLIO.ITEM.9.description',
 	},
 	{
-		id: 10,
-		image: img_p10,
-		link: 'https://github.com/ActoSoft/buntiAppMobile',
+		id: uuidv4(),
+		image: require('../assets/img/portfolios/meet.jpg'),
+		link: 'https://github.com/Diego-SJ/Meet',
 		title: 'PORTFOLIO.ITEM.10.title',
 		description: 'PORTFOLIO.ITEM.10.description',
 	},
 	{
-		id: 11,
-		image: img_p11,
-		link: null,
+		id: uuidv4(),
+		image: require('../assets/img/portfolios/cvra.jpg'),
+		link: 'https://github.com/Diego-SJ/Resume-v2',
 		title: 'PORTFOLIO.ITEM.11.title',
 		description: 'PORTFOLIO.ITEM.11.description',
 	},
 	{
-		id: 12,
-		image: img_p12,
-		link: 'https://rickandmorty-api.netlify.app/',
+		id: uuidv4(),
+		image: require('../assets/img/portfolios/mtw.jpg'),
+		link:
+			'https://github.com/ActoSoft/MexicoTrasciende-Frontend/tree/feature/team_organizer',
 		title: 'PORTFOLIO.ITEM.12.title',
 		description: 'PORTFOLIO.ITEM.12.description',
+	},
+	{
+		id: uuidv4(),
+		image: require('../assets/img/portfolios/bunti.jpg'),
+		link: 'https://github.com/ActoSoft/buntiAppMobile',
+		title: 'PORTFOLIO.ITEM.13.title',
+		description: 'PORTFOLIO.ITEM.13.description',
+	},
+	{
+		id: uuidv4(),
+		image: require('../assets/img/portfolios/egcp.jpg'),
+		link: null,
+		title: 'PORTFOLIO.ITEM.14.title',
+		description: 'PORTFOLIO.ITEM.14.description',
 	},
 ];
 
