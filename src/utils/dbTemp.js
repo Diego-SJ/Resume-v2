@@ -57,16 +57,18 @@ export const Services = [
 
 // * INFO RESUME PAGE
 export const Skills = [
-  { id: 0, title: 'REACT', percentage: '90' },
-	{ id: 1, title: 'HTML', percentage: '90' },
-	{ id: 2, title: 'CSS', percentage: '85' },
-	{ id: 3, title: 'JAVASCRIPT', percentage: '85' },
-	{ id: 4, title: 'PHP', percentage: '90' },
-	{ id: 5, title: 'PYTHON', percentage: '40' },
-	{ id: 6, title: 'C++', percentage: '35' },
-	{ id: 7, title: 'C#', percentage: '30' },
-	{ id: 8, title: 'JAVA', percentage: '90' },
-	{ id: 9, title: 'SQL', percentage: '85' },
+  { id: uuidv4(), title: 'REACT', percentage: '90' },
+  { id: uuidv4(), title: 'GIT', percentage: '90' },
+  { id: uuidv4(), title: 'SCRUM', percentage: '80' },
+	{ id: uuidv4(), title: 'HTML', percentage: '90' },
+	{ id: uuidv4(), title: 'CSS', percentage: '85' },
+	{ id: uuidv4(), title: 'JAVASCRIPT', percentage: '85' },
+	{ id: uuidv4(), title: 'PHP', percentage: '90' },
+	{ id: uuidv4(), title: 'PYTHON', percentage: '40' },
+	{ id: uuidv4(), title: 'C++', percentage: '35' },
+	{ id: uuidv4(), title: 'C#', percentage: '30' },
+	{ id: uuidv4(), title: 'JAVA', percentage: '90' },
+	{ id: uuidv4(), title: 'SQL', percentage: '85' },
 ];
 
 export const Education = [
