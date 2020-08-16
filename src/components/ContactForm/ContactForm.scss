@@ -1,78 +1,78 @@
 @import '../../sass/main.scss';
 
 .form {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-	& > h1 {
-		margin-top: 0 !important;
-	}
+  & > h1 {
+    margin-top: 0 !important;
+  }
 
-	&__group {
-		position: relative;
-		& > label {
-			position: absolute;
-			font-size: 1.3rem;
-			top: -12px;
-			left: 25px;
-			color: $secondary;
-			background-color: $dark;
-			padding: 0.3rem 1rem;
-			transition: all 0.5s;
-		}
+  &__group {
+    position: relative;
+    & > label {
+      position: absolute;
+      font-size: 1.3rem;
+      top: -20px;
+      left: 0;
+      color: $secondary;
+      background-color: transparent;
+      padding: 0.3rem 1rem;
+      transition: all 0.5s;
+    }
 
-		&:first-of-type {
-			margin-top: 2rem;
-		}
-	}
+    &:first-of-type {
+      margin-top: 2rem;
+    }
+  }
 
-	&__input,
-	&__input-ta {
-		width: 100%;
-		border: none;
-		padding: 1.5rem;
-		font-size: 1.5rem;
-		margin-bottom: 3rem;
-		background-color: $dark !important;
-		border: 1px solid $secondary;
-		color: $secondary;
-		transition: all 0.5s;
-		outline: none;
+  &__input,
+  &__input-ta {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    background-color: $gray-dark;
+    border: 1px solid $gray;
+    color: $secondary;
+    transition: all 0.5s;
+    outline: none;
 
-		&:focus {
-			border: 1px solid $primary;
-		}
-		&:focus + label {
-			color: $primary;
-		}
-		&:focus:invalid {
-			border: 1px solid $danger;
-		}
+    &:focus {
+      border: 1px solid $primary;
+    }
+    &:focus + label {
+      color: $primary;
+    }
+    &:focus:invalid {
+      border: 1px solid $danger;
+    }
 
-		&:focus:invalid + label {
-			color: $danger;
-		}
+    &:focus:invalid + label {
+      color: $danger;
+    }
 
-		&:invalid + label {
-			color: $secondary;
-		}
-		&:invalid {
-			border: 1px solid $secondary;
-		}
+    &:invalid + label {
+      color: $secondary;
+    }
+    &:invalid {
+      border: 1px solid $gray;
+    }
 
-		&:focus:-webkit-autofill {
-			background-color: $dark !important;
-		}
-	}
+    &:focus:-webkit-autofill {
+      background-color: $dark !important;
+    }
+  }
 
-	&__input-ta {
-		height: 10rem;
-		resize: none;
-		transition: all 0.5s;
-	}
+  &__input-ta {
+    height: 10rem;
+    resize: none;
+    transition: all 0.5s;
+  }
 }
 
 input:-webkit-autofill {
-	-webkit-box-shadow: 0 0 0 30px $dark inset !important;
-	-webkit-text-fill-color: $light !important;
+  -webkit-box-shadow: 0 0 0 600px rgba($gray-dark, 1) inset !important;
+  -webkit-text-fill-color: $light !important;
 }

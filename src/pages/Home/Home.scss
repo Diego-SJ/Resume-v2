@@ -2,97 +2,93 @@
 @import '../../sass/animations';
 
 .landing-home {
-	flex: 1;
-	background-color: $gray-dark;
-	z-index: 0;
-	animation: moveInBottom 0.8s;
+  flex: 1;
+  background-color: rgba($gray-dark, 1);
+  z-index: 0;
+  animation: moveInBottom 0.8s;
 
-	position: relative;
+  position: relative;
 }
 
 .bg-video {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	opacity: 0.3;
-	overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.3;
+  overflow: hidden;
 
-	&__content {
-		height: 100%;
-		width: 100%;
-		object-fit: cover;
-		-webkit-object-fit: cover;
-	}
+  &__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    -webkit-object-fit: cover;
+  }
 }
 
 .welcome-message {
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	padding: 2rem;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  padding: 2rem;
 
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-	& > h1 {
-		text-align: center !important;
-	}
+  & > h1 {
+    text-align: center !important;
+  }
 
-	@media only screen and (max-width: $bp-m) {
-		& > h1 > span {
-			display: block;
-		}
-	}
+  @media only screen and (max-width: $bp-m) {
+    & > h1 > span {
+      display: block;
+    }
+  }
 
-	&__secondary {
-		text-align: center;
-		border-spacing: 0.5rem;
-		padding: 2rem;
-	}
-
-	&__social {
-		// color: $light;
-	}
+  &__secondary {
+    text-align: center;
+    border-spacing: 0.5rem;
+    padding: 2rem;
+  }
 }
 
 .social {
-	color: $light;
+  color: $light;
 
-	display: flex;
-	list-style: none;
+  display: flex;
+  list-style: none;
 
-	&-item {
-		padding: 0.5rem 1rem;
+  &-item {
+    padding: 0.5rem 1rem;
 
-		&__content {
-			border-radius: 100%;
-			border: 2px solid $light;
-			padding: 1rem;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			transition: all 0.3s;
-		}
+    &__content {
+      border-radius: 100%;
+      border: 2px solid $light;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s;
+    }
 
-		&__icon {
-			width: 2rem;
-			height: 2rem;
-			color: $light;
-			transition: all 0.3s;
-		}
+    &__icon {
+      width: 2rem;
+      height: 2rem;
+      color: $light;
+      transition: all 0.3s;
+    }
 
-		&:hover > &__content {
-			border: 2px solid $primary;
-		}
+    &:hover > &__content {
+      border: 2px solid $primary;
+    }
 
-		&:hover > &__content > &__icon {
-			color: $primary;
-			transform: scale(1.1);
-		}
-	}
+    &:hover > &__content > &__icon {
+      color: $primary;
+      transform: scale(1.1);
+    }
+  }
 }

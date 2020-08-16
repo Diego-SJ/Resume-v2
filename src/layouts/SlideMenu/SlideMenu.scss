@@ -2,172 +2,171 @@
 @import '../../sass/animations';
 
 .sidebar {
-	background-color: $gray-dark;
-	border: $border-2p;
-	flex: 0 0 250px;
-	transition: all 0.4s;
-	min-height: 100vh;
+  background-color: $dark;
+  border: $border-2p;
+  flex: 0 0 250px;
+  transition: all 0.4s;
+  min-height: 100vh;
 
-	display: flex;
-	flex-direction: column;
-	position: relative;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 
-	@media only screen and (max-width: $bp-lg) {
-		position: absolute;
-		width: 250px;
-		top: 0;
-		left: -250px;
-		z-index: 99;
-		animation: navbarMoveToLeft 0.4s;
-	}
+  @media only screen and (max-width: $bp-lg) {
+    position: absolute;
+    width: 250px;
+    top: 0;
+    left: -250px;
+    z-index: 99;
+    animation: navbarMoveToLeft 0.4s;
+  }
 
-	& > .btn-show-menu {
-		position: absolute;
-		width: 5rem;
-		height: 5rem;
-		display: none;
+  & > .btn-show-menu {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    display: none;
 
-		@media only screen and (max-width: $bp-lg) {
-			display: block;
-			cursor: pointer !important;
-		}
+    @media only screen and (max-width: $bp-lg) {
+      display: block;
+      cursor: pointer !important;
+    }
 
-		top: -2px;
-		right: -5rem;
+    top: -2px;
+    right: -5rem;
 
-		& > button {
-			border: none;
-			background-color: $gray-dark;
-			border: $border-2p;
-			padding: 1rem;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			outline: none;
-			cursor: pointer;
-			transition: all 0.2s;
+    & > button {
+      border: none;
+      background-color: $gray-dark;
+      border: $border-2p;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      outline: none;
+      cursor: pointer;
+      transition: all 0.2s;
 
-			& .icon {
-				width: 2rem;
-				height: 2rem;
-				color: $light;
-			}
+      & .icon {
+        width: 2rem;
+        height: 2rem;
+        color: $light;
+      }
 
-			&:hover {
-				background-color: $primary;
-			}
-		}
-	}
+      &:hover {
+        background-color: $primary;
+      }
+    }
+  }
 }
 
 .show {
-	left: 0 !important;
-	transition: all 0.2s;
+  left: 0 !important;
+  transition: all 0.2s;
 }
 
 .header {
-	display: flex;
-	justify-content: center;
-	transition: all 0.2s;
+  display: flex;
+  justify-content: center;
+  transition: all 0.2s;
 
-	margin-top: 1.5rem;
-	border-bottom: $border-2p;
+  margin-top: 1.5rem;
+  border-bottom: $border-2p;
 
-	&__user {
-		padding-bottom: 1.7rem;
-	}
+  &__user {
+    padding-bottom: 1.7rem;
+  }
 
-	&__photo {
-		width: 20rem;
-		height: 20rem;
-		border-radius: 100%;
-		border: 7px solid $gray;
-		background-size: cover;
-	}
+  &__photo {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+    border: 7px solid $gray;
+    background-size: cover;
+  }
 }
 
 .side-bar {
-	font-size: 1.5rem;
-	list-style: none;
-	padding: 3rem 0rem;
+  font-size: 1.5rem;
+  list-style: none;
+  padding: 3rem 0rem;
 
-	&__item {
-		position: relative;
+  &__item {
+    position: relative;
 
-		&:not(:last-child) {
-			margin-bottom: 0.3rem;
-		}
-	}
+    &:not(:last-child) {
+      margin-bottom: 0.3rem;
+    }
+  }
 
-	&__item::before {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 0;
-		height: 100%;
-		width: 3px;
-		background-color: rgba($primary, 0.5);
-		transform: scaleY(0);
-		transform-origin: center;
-		transition: transform 0.4s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s,
-			background-color 0.1s;
-	}
+  &__item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: rgba($primary, 0.5);
+    transform: scaleY(0);
+    transform-origin: center;
+    transition: transform 0.4s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s,
+      background-color 0.1s;
+  }
 
-	&__item:hover::before,
-	&__item--active::before {
-		transform: scaleY(1);
-		width: 100%;
-	}
+  &__item:hover::before,
+  &__item--active::before {
+    transform: scaleY(1);
+    width: 100%;
+  }
 
-	&__item:active::before {
-		background-color: $primary;
-	}
+  &__item:active::before {
+    background-color: $primary;
+  }
 
-	&__item-active {
-		background-color: $primary !important;
+  &__item-active {
+    background-color: $primary !important;
 
-		& > .side-bar__link > span,
-		& > .side-bar__link > .side-bar__icon {
-			color: $light;
-		}
-	}
+    & > .side-bar__link > span,
+    & > .side-bar__link > .side-bar__icon {
+      color: $light;
+    }
+  }
 
-	&__link,
-	&__link:link,
-	&__link:visited {
-		text-align: center;
-		color: $secondary;
-		text-decoration: none;
-		text-transform: uppercase;
-		display: block;
-		padding: 1rem 3rem;
-		position: relative;
-		z-index: 500;
-		border-bottom: 1px solid $gray-dark;
+  &__link,
+  &__link:link,
+  &__link:visited {
+    text-align: center;
+    color: $secondary;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 1.2rem 3rem;
+    position: relative;
+    z-index: 500;
 
-		display: flex;
-		align-items: center;
-	}
+    display: flex;
+    align-items: center;
+  }
 
-	&__link:hover {
-		color: $light;
-	}
+  &__link:hover {
+    color: $light;
+  }
 
-	&__icon {
-		width: 1.75rem;
-		height: 1.75rem;
-		margin-right: 2rem;
-		color: currentColor;
-	}
+  &__icon {
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-right: 2rem;
+    color: currentColor;
+  }
 }
 
 .legal {
-	margin-top: auto;
+  margin-top: auto;
 
-	border-top: $border-2p;
-	font-size: 1.5rem;
-	text-align: center;
-	padding: 1.5rem;
-	color: $secondary;
-	font-weight: 300;
+  border-top: $border-2p;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1.5rem;
+  color: $secondary;
+  font-weight: 300;
 }
