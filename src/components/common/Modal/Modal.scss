@@ -1,0 +1,41 @@
+@import '../../../sass/main.scss';
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+
+  position: relative;
+
+  &__btn,
+  &__btn:active,
+  &__btn:focus {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgba($dark, 0.3);
+    color: $light;
+    font-size: 4rem;
+    transition: all 0.2s;
+    outline: none;
+    border: 0;
+
+    display: grid;
+    place-content: center;
+
+    &:hover {
+      background-color: rgba($dark, 0.7);
+      cursor: pointer;
+      box-shadow: 0rem 0rem 0.7rem rgba($dark, 0.5);
+    }
+  }
+
+  &__image {
+    width: 80vw;
+    height: auto;
+  }
+}

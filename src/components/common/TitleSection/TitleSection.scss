@@ -1,0 +1,36 @@
+@import '../../../sass/main.scss';
+
+.title-section {
+  padding-bottom: 3rem;
+}
+
+.heading-primary {
+  color: $light;
+  font-size: 4rem;
+  padding-bottom: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  position: relative;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: auto;
+    bottom: 0;
+    height: 5px;
+    background-color: $primary;
+    border-radius: 100px;
+  }
+
+  &::after {
+    width: 45px;
+    background: $primary;
+  }
+  &::before {
+    width: 120px;
+    background: rgba($primary, 0.3);
+  }
+}

@@ -1,49 +1,77 @@
 @keyframes moveInBottom {
-	0% {
-		opacity: 0;
-	}
+  0% {
+    opacity: 0;
+  }
 
-	100% {
-		opacity: 1;
-	}
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes turn360 {
-	0% {
-		transform: scale(0.5) rotate(0deg);
-	}
-	50% {
-		transform: scale(1) rotate(180deg);
-	}
+  0% {
+    transform: scale(0.5) rotate(0deg);
+  }
+  50% {
+    transform: scale(1) rotate(180deg);
+  }
 
-	100% {
-		transform: scale(0.5) rotate(360deg);
-	}
+  100% {
+    transform: scale(0.5) rotate(360deg);
+  }
 }
 
 @keyframes fadeOut {
-	0% {
-		opacity: 0;
-	}
+  0% {
+    opacity: 0;
+  }
 
-	100% {
-		opacity: 1;
-	}
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes navbarMoveToLeft {
-	0% {
-		left: 0;
-	}
+  0% {
+    left: 0;
+  }
 
-	100% {
-		left: -250px;
-	}
+  100% {
+    left: -250px;
+  }
 }
 
 @mixin absCenter {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes loading {
+  0% {
+    background-image: linear-gradient(
+      45deg,
+      rgba($gray-dark, 0.6),
+      rgba($primary, 0.1)
+    );
+    opacity: 0.7;
+  }
+  50% {
+    background-image: linear-gradient(
+      45deg,
+      rgba($gray-dark, 0.6),
+      rgba($primary, 0.1),
+      rgba($gray-dark, 0.6)
+    );
+    opacity: 1;
+  }
+  100% {
+    background-image: linear-gradient(
+      45deg,
+      rgba($primary, 0.1),
+      rgba($gray-dark, 0.6)
+    );
+    opacity: 0.7;
+  }
 }

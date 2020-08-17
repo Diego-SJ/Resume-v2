@@ -1,19 +1,19 @@
 import React from 'react';
+import LanguageButton from './components/common/LanguageButton';
 import ParticlesBg from 'particles-bg';
 import { ToastProvider } from 'react-toast-notifications';
 import Routing from './routes';
-import LanguageButton from './components/Text/LanguageButton';
 
 import './sass/main.scss';
 
 function App() {
   return (
     <ToastProvider>
-      <div className="container">
+      <section className="container">
         <LanguageButton />
         <Routing />
         <ParticlesBg color="#2f353e" type="cobweb" bg={true} />
-      </div>
+      </section>
     </ToastProvider>
   );
 }

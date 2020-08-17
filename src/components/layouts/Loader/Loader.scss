@@ -1,0 +1,16 @@
+@import '../../../sass/main.scss';
+
+.loader {
+  position: fixed;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: grid;
+  place-content: center;
+  background-color: $dark;
+
+  &-icon {
+    height: 200px;
+    color: $primary !important;
+    animation: turn360 2s linear infinite;
+  }
+}

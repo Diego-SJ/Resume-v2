@@ -1,0 +1,7 @@
+@import '../../../sass/main.scss';
+
+.contact-info {
+  @media only screen and (max-width: 767px) {
+    margin-top: 7rem !important;
+  }
+}
