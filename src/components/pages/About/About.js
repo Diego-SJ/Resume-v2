@@ -2,6 +2,7 @@ import React from 'react';
 import { Col } from 'react-grid-system';
 import { PersonalData, Services } from '../../../utils/dbTemp';
 import { useTranslation } from 'react-i18next';
+import Landing from '../../layouts/Landing';
 import ButtonPrimary from '../../common/ButtonPrimary';
 import ModalBasic from '../../common/Modal';
 import useModal from 'use-react-modal';
@@ -13,7 +14,7 @@ import resumeEnglish from '../../../assets/file/Juan Diego Salas Jimenez - en.pd
 import './About.scss';
 import photo from '../../../assets/img/profile/jdsj2.jpg';
 
-export default function About() {
+const About = () => {
   const { t } = useTranslation();
 
   const { isOpen, openModal, closeModal, Modal } = useModal({
@@ -53,61 +54,61 @@ export default function About() {
   };
 
   return (
-    <>
-      <main className="landing">
-        <Section title={'ABOUT.title.2'}>
-          <Col lg={6}>
-            <div className="section-content__avatar">
-              <img src={photo} alt="Juan Diego Salas Jimenez" />
-            </div>
-          </Col>
-          <Col lg={6}>
-            <div className="section-content__info">
-              <h1 className="secondary">
-                <span>{t('ABOUT.iam.1')} </span> Juan Diego Salas Jiménez
-              </h1>
-              <p className="paragraph">{t('ABOUT.info.1')}</p>
-              <ul className="personal-data">
-                {PersonalData.map((data) => (
-                  <li key={data.id} className="personal-data__item">
-                    <b>{t(data.title)}</b> {t(data.description)}
-                  </li>
-                ))}
-              </ul>
-              <ButtonPrimary
-                type="button"
-                content={`${t('ABOUT.downloadResume.1')}`}
-                onClick={openModal}
-              />
-              <ModalBasic
-                isOpen={isOpen}
-                closeModal={closeModal}
-                Modal={Modal}
-                btnClose={false}
-                content={selectResume()}
-              />
-            </div>
-          </Col>
-        </Section>
+    <Landing>
+      <Section title={'ABOUT.title.2'}>
+        <Col lg={6}>
+          <div className="section-content__avatar">
+            <img src={photo} alt="Juan Diego Salas Jimenez" />
+          </div>
+        </Col>
+        <Col lg={6}>
+          <div className="section-content__info">
+            <h1 className="secondary">
+              <span>{t('ABOUT.iam.1')} </span> Juan Diego Salas Jiménez
+            </h1>
+            <p className="paragraph">{t('ABOUT.info.1')}</p>
+            <ul className="personal-data">
+              {PersonalData.map((data) => (
+                <li key={data.id} className="personal-data__item">
+                  <b>{t(data.title)}</b> {t(data.description)}
+                </li>
+              ))}
+            </ul>
+            <ButtonPrimary
+              type="button"
+              content={`${t('ABOUT.downloadResume.1')}`}
+              onClick={openModal}
+            />
+            <ModalBasic
+              isOpen={isOpen}
+              closeModal={closeModal}
+              Modal={Modal}
+              btnClose={false}
+              content={selectResume()}
+            />
+          </div>
+        </Col>
+      </Section>
 
-        <Section title={'ABOUT.title.3'}>
-          {Services.map((service) => (
-            <Col
-              key={service.id}
-              lg={4}
-              md={6}
-              sm={12}
-              style={{ marginBottom: '3rem' }}
-            >
-              <CardService
-                icon={t(service.icon)}
-                title={t(service.title)}
-                description={t(service.description)}
-              />
-            </Col>
-          ))}
-        </Section>
-      </main>
-    </>
+      <Section title={'ABOUT.title.3'}>
+        {Services.map((service) => (
+          <Col
+            key={service.id}
+            lg={4}
+            md={6}
+            sm={12}
+            style={{ marginBottom: '3rem' }}
+          >
+            <CardService
+              icon={t(service.icon)}
+              title={t(service.title)}
+              description={t(service.description)}
+            />
+          </Col>
+        ))}
+      </Section>
+    </Landing>
   );
-}
+};
+
+export default About;

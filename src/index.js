@@ -1,11 +1,15 @@
 import React, { Suspense } from 'react';
-import { HOME } from './routes/routes';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import { HOME } from './routes/routes';
 import App from './App';
 import Loader from './components/layouts/Loader';
+import createStore from './redux/store';
 
 import './utils/i18n';
+
+const store = createStore();
 
 const WithRouter = () => (
   <Router basename={HOME}>
@@ -13,9 +17,15 @@ const WithRouter = () => (
   </Router>
 );
 
+const WithRedux = () => (
+  <Provider store={store}>
+    <WithRouter />
+  </Provider>
+);
+
 ReactDOM.render(
   <Suspense fallback={<Loader />}>
-    <WithRouter />
+    <WithRedux />
   </Suspense>,
   document.getElementById('root'),
 );
