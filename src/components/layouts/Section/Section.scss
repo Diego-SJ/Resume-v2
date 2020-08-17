@@ -1,12 +1,12 @@
 .section {
-	display: flex;
-	flex-direction: column;
-	margin: 6rem 2rem !important;
-	justify-content: center;
-	align-items: center;
-	animation: moveInBottom 0.8s;
+  display: flex;
+  flex-direction: column;
+  margin: 6rem 2rem !important;
+  justify-content: center;
+  align-items: center;
+  animation: moveToLeftWithOpacity 0.8s;
 
-	&-content {
-		display: flex;
-	}
+  &-content {
+    display: flex;
+  }
 }

@@ -9,24 +9,6 @@
   position: relative;
 }
 
-.bg-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  opacity: 0.3;
-  overflow: hidden;
-
-  &__content {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    -webkit-object-fit: cover;
-  }
-}
-
 .welcome-message {
   width: 100%;
   height: 100%;
@@ -37,6 +19,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  animation: fadeOut ease-in-out 0.8s;
 
   & > h1 {
     text-align: center !important;
