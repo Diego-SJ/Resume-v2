@@ -1,12 +1,14 @@
 import React from 'react';
-import { connect } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { onlyHideMenuAction } from '../../../redux/app.duck';
 
 import './Landing.scss';
 
-const Landing = ({ children, onlyHideMenuAction }) => {
+const Landing = ({ children }) => {
+  const dispatch = useDispatch();
+
   const handleMenuVisibility = () => {
-    onlyHideMenuAction();
+    dispatch(onlyHideMenuAction());
   };
 
   return (
@@ -16,8 +18,4 @@ const Landing = ({ children, onlyHideMenuAction }) => {
   );
 };
 
-const mapState = () => ({
-  visibility: {},
-});
-
-export default connect(mapState, { onlyHideMenuAction })(Landing);
+export default Landing;

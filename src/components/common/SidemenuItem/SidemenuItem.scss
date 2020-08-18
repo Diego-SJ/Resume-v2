@@ -1,0 +1,68 @@
+@import '../../../sass/main.scss';
+
+.side-bar {
+  &__item {
+    width: 250px;
+    position: relative;
+  }
+
+  &__item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: rgba($primary, 0.5);
+    transform: scaleY(0);
+    transform-origin: center;
+    transition: transform 0.4s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s,
+      background-color 0.1s;
+  }
+
+  &__item:hover::before,
+  &__item--active::before {
+    transform: scaleY(1);
+    width: 100%;
+  }
+
+  &__item:active::before {
+    background-color: $primary;
+  }
+
+  &__item-active {
+    background-color: $primary !important;
+
+    & > .side-bar__link > span,
+    & > .side-bar__link > .side-bar__icon {
+      color: $light;
+    }
+  }
+
+  &__link,
+  &__link:link,
+  &__link:visited {
+    text-align: center;
+    color: $secondary;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 1rem 3rem;
+    position: relative;
+    z-index: 500;
+
+    display: flex;
+    align-items: center;
+  }
+
+  &__link:hover {
+    color: $light;
+  }
+
+  &__icon {
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-right: 2rem;
+    color: currentColor;
+  }
+}

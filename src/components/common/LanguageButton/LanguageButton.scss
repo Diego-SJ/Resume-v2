@@ -1,45 +1,45 @@
 @import '../../../sass/main.scss';
 
 button.language {
-	width: 10rem;
-	height: 4rem;
-	padding: 0;
-	background-color: transparent;
-	border-radius: 10px;
-	border: 0;
+  width: 10rem;
+  height: 4rem;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 0;
 
-	position: absolute;
-	top: 1rem;
-	right: 1rem;
-	z-index: 100;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	transition: all 0.2s;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 999;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: all 0.2s;
 
-	&,
-	&::-moz-focus-inner,
-	&:focus {
-		outline: none;
-		border: 0;
-	}
+  &,
+  &::-moz-focus-inner,
+  &:focus {
+    outline: none;
+    border: 0;
+  }
 
-	&:hover {
-		background-color: $gray;
-		cursor: pointer;
-	}
+  &:hover {
+    background-color: rgba($primary, 0.5);
+    cursor: pointer;
+  }
 
-	> div {
-		width: 30px;
-		height: 30px;
-		border-radius: 50px;
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-	}
+  > div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
-	> span {
-		color: $light;
-		font-size: 1.3rem;
-	}
+  > span {
+    color: $light;
+    font-size: 1.3rem;
+  }
 }

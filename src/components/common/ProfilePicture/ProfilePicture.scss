@@ -2,12 +2,11 @@
 
 .header {
   &__user {
-    width: 20rem;
-    height: 20rem;
+    width: 19rem;
+    height: 19rem;
     border-radius: 10rem;
     border: 5px solid $gray;
     overflow: hidden;
-    margin-bottom: 3rem;
     padding: -10px;
   }
 

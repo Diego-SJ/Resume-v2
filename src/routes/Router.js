@@ -1,6 +1,6 @@
 import React from 'react';
 import SlideMenu from '../components/layouts/SlideMenu';
-import { Route, Switch, useLocation } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 // Paths
 import { HOME, ABOUT, RESUME, PORTFOLIO, CONTACT } from './routes';
@@ -13,10 +13,9 @@ import Contact from '../components/pages/Contact';
 import Portfolio from '../components/pages/Portfolio';
 
 export default function Router() {
-  const { pathname } = useLocation();
   return (
     <>
-      <SlideMenu currentPage={pathname} />
+      <SlideMenu />
       <Switch>
         <Route exact path={HOME} component={Home} />
         <Route exact path={ABOUT} component={About} />
