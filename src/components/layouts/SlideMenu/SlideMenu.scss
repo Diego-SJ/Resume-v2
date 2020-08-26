@@ -67,6 +67,10 @@
   display: grid;
   place-content: center;
   border-bottom: $border-2p;
+
+  @media only screen and (max-width: $bp-xs) {
+    padding: 4rem 0rem;
+  }
 }
 
 .side-bar {
@@ -77,6 +81,10 @@
   padding: 0rem;
   display: grid;
   place-content: center;
+
+  @media only screen and (max-width: $bp-xs) {
+    font-size: 2.2rem;
+  }
 }
 
 .legal {
