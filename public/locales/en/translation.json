@@ -88,28 +88,34 @@
     },
     "PROFESSIONAL_EXPERIENCE": {
       "1": {
-        "date": "Jun. 2019 - Present",
-        "title": "Software developer",
-        "subtitle": "Actosoft Community",
-        "description": "Mobile application developer, member of the development team.\nBack-end development for user registration and geolocation of the “Bunti App” mobile app.\nFront-end development of the “Team organizer” module for the “México Trasciende” website, Tecnológico de Monterrey."
+        "date": "Aug. 2020 - Dec. 2020",
+        "title": "Frontend developer",
+        "subtitle": "Fixter",
+        "description": "I am currently a resident and I am part of the frontend development team implementing technologies such as React.js, Redux, Ant design and GraphQL."
       },
       "2": {
-        "date": "Dec. 2019 - Present",
-        "title": "Freelancer",
-        "subtitle": "Freelancer",
-        "description": "Development of the “Meet” web platform, Mixquiahuala de Juárez (In Process)."
+        "date": "Aug. 2020 - Present",
+        "title": "Software developer",
+        "subtitle": "Actosoft Community",
+        "description": "Member of the frontend development team with technologies such as Javascript, CSS, HTML, SASS, Styled components, Typescript, React.js and Firebase for web applications. Lead Teacher in courses provided by Actosoft."
       },
       "3": {
-        "date": "Jun. 2019 - Dec. 2019",
-        "title": "Web developer",
-        "subtitle": "Colegio Linus Pauling",
-        "description": "Development of the “App Web Lecturas” platform to record, analyze and show data about learning in the Linus Pauling school, Progreso de Obregón."
+        "date": "Mar. 2020 - Apr. 2020",
+        "title": "Freelancer",
+        "subtitle": "Freelancer",
+        "description": "I taught an introductory online course called “Web development - create your own website“ including technologies like Git, HTML, CSS, Javascript and SASS."
       },
       "4": {
+        "date": "Jun. 2019 - Dec. 2019",
+        "title": "Web developer",
+        "subtitle": "Social Service at ITSOEH",
+        "description": "Full-stack development of the “App Web Lecturas” platform to record, analyze and present data on learning matters at the Linus Pauling school, Progreso de Obregón, Hgo. Making use of technologies like MySql, PHP, JQuery, HTML, Javascript and Bootstrap."
+      },
+      "5": {
         "date": "Aug. 2017 - Dec. 2017",
-        "title": "Mobile developer and designer",
+        "title": "Mobile developer and UI designer",
         "subtitle": "Ciclo-pep",
-        "description": "Member of the back-end and front-end development team of the “Eco Guardianes” mobile app."
+        "description": "I was part of the backend and frontend development team for the “Eco Guardianes” project, as well as making some mockups and images for the application."
       }
     },
     "RECOGNITIONS": {
