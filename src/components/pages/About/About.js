@@ -12,7 +12,7 @@ import resumeSpanish from '../../../assets/file/Juan Diego Salas Jimenez - es.pd
 import resumeEnglish from '../../../assets/file/Juan Diego Salas Jimenez - en.pdf';
 
 import './About.scss';
-import photo from '../../../assets/img/profile/jdsj2.jpg';
+import photo from '../../../assets/img/profile/jdsj.jpg';
 
 const About = () => {
   const { t } = useTranslation();
