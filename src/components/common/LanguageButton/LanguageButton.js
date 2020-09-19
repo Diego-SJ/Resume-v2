@@ -6,8 +6,8 @@ import { switchLanguageAction } from '../../../redux/app.duck';
 import { LAN_EN, SPANISH, ENGLISH } from '../../../constants/strings';
 
 import './LanguageButton.scss';
-import es from '../../../assets/img/language/es.png';
-import en from '../../../assets/img/language/en.png';
+import es from '../../../assets/img/language/es.webp';
+import en from '../../../assets/img/language/en.webp';
 
 export default function LanguageButton() {
   const { i18n } = useTranslation();

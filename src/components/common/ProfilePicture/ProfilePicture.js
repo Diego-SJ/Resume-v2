@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { HOME } from '../../../routes/routes';
 
 import './ProfilePicture.scss';
-import photo from '../../../assets/img/profile/jdsj.jpg';
+import photo from '../../../assets/img/profile/jdsj.webp';
 
 const ProfilePicture = React.memo(() => {
   const [isImageLoaded, setIsImageLoaded] = useState(true);

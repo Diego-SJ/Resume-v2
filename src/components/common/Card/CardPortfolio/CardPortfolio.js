@@ -28,7 +28,7 @@ const CardPortfolio = ({ image = null, title, description, link = null }) => {
               <img
                 src={image}
                 className="d-none"
-                onLoad={() => setTimeout(() => setIsImageLoaded(true), 3000)}
+                onLoad={() => setTimeout(() => setIsImageLoaded(true), 100)}
                 alt="hidden-img"
               />
               {isImageLoaded && (

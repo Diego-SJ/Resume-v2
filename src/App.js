@@ -1,10 +1,9 @@
 import React from 'react';
 import LanguageButton from './components/common/LanguageButton';
-import ParticlesBg from 'particles-bg';
 import { ToastProvider } from 'react-toast-notifications';
-import Routing from './routes';
-
 import './sass/main.scss';
+const Routing = React.lazy(() => import('./routes'));
+const ParticlesBg = React.lazy(() => import('particles-bg'));
 
 function App() {
   return (
