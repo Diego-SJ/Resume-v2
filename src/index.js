@@ -6,7 +6,7 @@ import { HOME } from './routes/routes';
 import App from './App';
 import Loader from './components/layouts/Loader';
 import createStore from './redux/store';
-
+import 'typeface-roboto';
 import './utils/i18n';
 
 const store = createStore();
