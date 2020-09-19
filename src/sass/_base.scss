@@ -30,6 +30,8 @@
 }
 
 html {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+  font-weight: normal;
   font-size: 62.5%; // 1rem  = 10px
 
   @media only screen and (max-width: $bp-s) {
@@ -39,8 +41,6 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: 'Roboto' !important;
-  font-weight: normal;
 }
 
 .container {
