@@ -10,7 +10,7 @@ const ProfilePicture = React.memo(() => {
   return (
     <Link to={HOME} className={`header__user ${isImageLoaded && 'load'}`}>
       <img
-        onLoad={() => setTimeout(() => setIsImageLoaded(false), 2000)}
+        onLoad={() => setTimeout(() => setIsImageLoaded(false), 100)}
         src={photo}
         alt="Juan Diego Salas Jimenez"
         className={`header__photo ${isImageLoaded && 'd-none'}`}
