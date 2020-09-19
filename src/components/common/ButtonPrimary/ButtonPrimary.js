@@ -4,7 +4,7 @@ import './ButtonPrimary.scss';
 import Icon from '../Icon';
 
 export default function ButtonPrimary(props) {
-  const { loading, type, content, onClick } = props;
+  const { loading, type = 'button', content, onClick } = props;
   return (
     <button
       type={type}

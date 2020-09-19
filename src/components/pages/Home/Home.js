@@ -35,7 +35,7 @@ const Home = ({ onlyHideMenuAction }) => {
         <div className="welcome-message__social">
           <ul className="social">
             <li className="social-item">
-              <Link to={CONTACT} className="social-item__content">
+              <Link to={CONTACT} className="social-item__content" aria-label="contact">
                 <Icon icon="at-sign" className="social-item__icon" />
               </Link>
             </li>
@@ -45,6 +45,7 @@ const Home = ({ onlyHideMenuAction }) => {
                 className="social-item__content"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="phone"
               >
                 <Icon icon="phone" className="social-item__icon" />
               </a>
@@ -55,6 +56,7 @@ const Home = ({ onlyHideMenuAction }) => {
                 className="social-item__content"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="whatsapp"
               >
                 <Icon icon="whatsapp" className="social-item__icon" />
               </a>
@@ -65,6 +67,7 @@ const Home = ({ onlyHideMenuAction }) => {
                 className="social-item__content"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="linkedin"
               >
                 <Icon icon="linkedin" className="social-item__icon" />
               </a>
@@ -75,6 +78,7 @@ const Home = ({ onlyHideMenuAction }) => {
                 className="social-item__content"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="medium"
               >
                 <Icon icon="medium" className="social-item__icon" />
               </a>
@@ -85,6 +89,7 @@ const Home = ({ onlyHideMenuAction }) => {
                 className="social-item__content"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="github"
               >
                 <Icon icon="github" className="social-item__icon" />
               </a>
