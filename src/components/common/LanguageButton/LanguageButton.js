@@ -23,7 +23,7 @@ export default function LanguageButton() {
   };
 
   return (
-    <button className="language" onClick={onClick}>
+    <button aria-label="languageButton" className="language" onClick={onClick}>
       <div style={{ backgroundImage: `url(${currentLanguage === LAN_EN ? es : en})` }} />
       <span>{currentLanguage === LAN_EN ? SPANISH : ENGLISH}</span>
     </button>

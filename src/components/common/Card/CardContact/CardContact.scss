@@ -53,7 +53,7 @@
   }
 
   &__title {
-    font-weight: 300;
+    font-family: 'RobotoLight';
     color: $light;
     font-size: 2rem;
     position: relative;
@@ -71,7 +71,7 @@
   }
 
   &__description {
-    font-weight: 300;
+    font-family: 'RobotoLight';
     color: $secondary;
     text-align: left;
     line-height: 2rem;
