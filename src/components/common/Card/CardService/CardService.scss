@@ -32,9 +32,9 @@
   }
 
   &__title {
+    font-family: 'RobotoLight';
     color: $light;
     font-size: 2rem;
-    font-weight: 300;
     position: relative;
     padding-bottom: 1rem;
 
@@ -50,10 +50,10 @@
   }
 
   &__description {
+    font-family: 'RobotoLight';
     color: $secondary;
     text-align: justify;
     line-height: 2rem;
     font-size: 1.8rem;
-    font-weight: 300;
   }
 }
