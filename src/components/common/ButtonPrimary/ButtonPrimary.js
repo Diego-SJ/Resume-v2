@@ -11,6 +11,7 @@ export default function ButtonPrimary(props) {
       onClick={onClick}
       className="btn-primary"
       disabled={loading}
+      aria-label="primaryButton"
     >
       {loading && (
         <div className="loading">
