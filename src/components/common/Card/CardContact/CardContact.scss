@@ -53,7 +53,7 @@
   }
 
   &__title {
-    font-family: 'RobotoLight' , Arial, Helvetica, sans-serif;
+    font-weight: 300;
     color: $light;
     font-size: 2rem;
     position: relative;
@@ -71,7 +71,7 @@
   }
 
   &__description {
-    font-family: 'RobotoLight' , Arial, Helvetica, sans-serif;
+    font-weight: 300;
     color: $secondary;
     text-align: left;
     line-height: 2rem;
