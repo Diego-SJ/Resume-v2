@@ -29,15 +29,19 @@
   box-sizing: inherit;
 }
 
-body {
-  font-family: 'Roboto' !important;
-  font-weight: normal;
+html {
   font-size: 62.5%; // 1rem  = 10px
-  box-sizing: border-box;
 
   @media only screen and (max-width: $bp-s) {
     font-size: 55%; // 8px
   }
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto' !important;
+  font-weight: normal;
+  font-display: swap;
 }
 
 .container {
