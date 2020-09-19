@@ -28,7 +28,7 @@ const SlideMenu = React.memo(() => {
     <>
       <aside className={`sidebar ${visibility && 'show'}`}>
         <div className="btn-show-menu" onClick={() => changeVisibility()}>
-          <button type="button">
+          <button type="button" aria-label="closeOpenButton">
             <Icon icon="align-justify" className="icon" />
           </button>
         </div>

@@ -1,19 +1,19 @@
 @import './variables';
 @import './animations';
 
-@font-face {
-  font-family: 'RobotoRegular';
-  src: url('../assets/fonts/RobotoRegular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: 'RobotoRegular';
+//   src: url('../assets/fonts/RobotoRegular.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+// }
 
-@font-face {
-  font-family: 'RobotoLight';
-  src: url('../assets/fonts/RobotoLight.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: 'RobotoLight';
+//   src: url('../assets/fonts/RobotoLight.woff') format('woff');
+//   font-weight: 300;
+//   font-style: normal;
+// }
 
 * {
   margin: 0;
@@ -39,7 +39,8 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: 'RobotoRegular';
+  font-family: 'Roboto' !important;
+  font-weight: normal;
 }
 
 .container {

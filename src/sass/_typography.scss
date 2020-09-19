@@ -2,7 +2,7 @@
 @import './animations';
 
 .paragraph {
-  font-family: 'RobotoLight';
+  font-weight: 300;
 	color: $secondary;
 	font-size: 1.8rem;
 	line-height: 3rem;
@@ -13,7 +13,7 @@
 	}
 }
 .paragraph-justify {
-  font-family: 'RobotoLight';
+  font-weight: 300;
 	color: $secondary;
 	font-size: 1.8rem;
 	line-height: 3rem;
@@ -31,9 +31,11 @@ h1 {
 
 	&.primary {
 		font-size: 5rem;
+    font-weight: normal;
 	}
 
 	&.secondary {
 		font-size: 3rem;
+    font-weight: normal;
 	}
 }
