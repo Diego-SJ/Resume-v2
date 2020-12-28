@@ -87,11 +87,17 @@
       }
     },
     "PROFESSIONAL_EXPERIENCE": {
+      "6": {
+        "date": "Oct. 2020 - Present",
+        "title": "Frontend developer",
+        "subtitle": "Sodisa",
+        "description": "I am currently part of the frontend development team implementing and interacting with technologies such as React.js, Typescript, Sass, C# and MSSQLS."
+      },
       "1": {
         "date": "Aug. 2020 - Dec. 2020",
         "title": "Frontend developer",
         "subtitle": "Fixter",
-        "description": "I am currently a resident and I am part of the frontend development team implementing technologies such as React.js, Redux, Ant design and GraphQL."
+        "description": "I am currently a resident and I am part of the frontend development team implementing technologies such as React.js, Redux and Ant design."
       },
       "2": {
         "date": "Jun. 2019 - Present",
@@ -154,6 +160,18 @@
       "9": {
         "date": "Jun. 2015",
         "title": "Accreditation of competences in Microsoft technologies for productivity (Word, Excel and PowerPoint) by SEP and Microsoft Mexico."
+      },
+      "10": {
+        "date": "Sep. 2020",
+        "title": "Course \"Advanced SEO\" by LinkedIn Learning."
+      },
+      "11": {
+        "date": "Sep. 2020",
+        "title": "Course \"Advanced JavaScript 2\" by LinkedIn Learning."
+      },
+      "12": {
+        "date": "Sep. 2020",
+        "title": "Course \"Advanced Node.js\" by LinkedIn Learning."
       }
     }
   },
@@ -248,7 +266,7 @@
     "INFO": {
       "address": {
         "title": "Address",
-        "description": "Pirul Street #6 block Godo, Dextho de Victoria, San Salvador Hgo. Zip 42640"
+        "description": "Dextho de Victoria, San Salvador Hgo. MX."
       },
       "phone": {
         "title": "Phone",

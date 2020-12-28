@@ -9,8 +9,8 @@ export default function TimeLine({ list }) {
   return (
     <ul className="time-line">
       {list &&
-        list.map((item) => (
-          <li key={item.id} className="time-line__item">
+        list.map((item, index) => (
+          <li key={index} className="time-line__item">
             <span className="time-line__date">{t(item.date)}</span>
             <div className="time-line__content">
               <h3>{t(item.title)}</h3>

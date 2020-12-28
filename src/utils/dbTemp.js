@@ -10,7 +10,7 @@ export const PersonalData = [
   {
     id: 2,
     title: 'ABOUT.age.1',
-    description: '21',
+    description: '22',
   },
   {
     id: 3,
@@ -90,6 +90,13 @@ export const Education = [
 
 export const ProfessionalExperience = [
   {
+    id: null,
+    date: 'RESUME.PROFESSIONAL_EXPERIENCE.6.date',
+    title: 'RESUME.PROFESSIONAL_EXPERIENCE.6.title',
+    subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.6.subtitle',
+    description: 'RESUME.PROFESSIONAL_EXPERIENCE.6.description',
+  },
+  {
     id: 1,
     date: 'RESUME.PROFESSIONAL_EXPERIENCE.1.date',
     title: 'RESUME.PROFESSIONAL_EXPERIENCE.1.title',
@@ -127,6 +134,21 @@ export const ProfessionalExperience = [
 ];
 
 export const Recognitions = [
+  {
+    id: null,
+    date: 'RESUME.RECOGNITIONS.12.date',
+    title: 'RESUME.RECOGNITIONS.12.title',
+  },
+  {
+    id: null,
+    date: 'RESUME.RECOGNITIONS.11.date',
+    title: 'RESUME.RECOGNITIONS.11.title',
+  },
+  {
+    id: null,
+    date: 'RESUME.RECOGNITIONS.10.date',
+    title: 'RESUME.RECOGNITIONS.10.title',
+  },
   {
     id: 1,
     date: 'RESUME.RECOGNITIONS.1.date',
