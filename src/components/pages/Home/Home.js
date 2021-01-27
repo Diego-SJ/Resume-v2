@@ -98,7 +98,7 @@ const Home = ({ onlyHideMenuAction }) => {
         </div>
       </div>
 
-      <ParticlesBg type="polygon" bg={true} />
+      <ParticlesBg type="lines" bg={true} />
     </main>
   );
 };

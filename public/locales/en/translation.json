@@ -1,284 +1,288 @@
 {
-  "HOME": {
-    "title": "HOME",
-    "hiIam": {
-      "1": "Hi! I am"
-    },
-    "objetive": {
-      "1": "Without change there is no innovation, creativity, or incentive for improvement. Those who initiate change will have a better chance of managing the change that is inevitable. - William Pollard."
-    }
-  },
-  "ABOUT": {
-    "title": {
-      "1": "ABOUT",
-      "2": "ABOUT ME",
-      "3": "SERVICES"
-    },
-    "iam": {
-      "1": "I am"
-    },
-    "info": {
-      "1": "Engineering student in Information Technologies and Communications."
-    },
-    "fullName": {
-      "1": "Full name",
-      "2": "Juan Diego Salas Jiménez"
-    },
-    "age": {
-      "1": "Age"
-    },
-    "birthday": {
-      "1": "Birthday"
-    },
-    "nationality": {
-      "1": "Nationality",
-      "2": "Mexican"
-    },
-    "languages": {
-      "1": "Languages",
-      "2": "Spanish (Native) - English (A2)"
-    },
-    "maritalStatus": {
-      "1": "Marital status",
-      "2": "Single"
-    },
-    "downloadResume": {
-      "1": "DOWNLOAD RESUME",
-      "es": "SPANISH",
-      "en": "ENGLISH"
-    },
-    "SERVICE": {
-      "title": {
-        "1": "Web design",
-        "2": "Web development",
-        "3": "Mobile development"
-      },
-      "description": {
-        "1": "The interface must project the corporate image of the client, its essence and values must be understood beyond placing only the logo.",
-        "2": "The optimization of the front-end as the back-end of the site; The objective is to control and optimize the website loading process.",
-        "3": "Mobile devices guarantee the practicality we are looking for, so it is necessary that navigation and functionality be designed for mobile phones."
-      }
-    }
-  },
-  "RESUME": {
-    "title": {
-      "1": "RESUME",
-      "objective": "PROFESSIONAL OBJECTIVE",
-      "skills": "SKILLS",
-      "education": "EDUCATION",
-      "proExp": "PROFESSIONAL EXPERIENCE",
-      "recognitions": "RECOGNITIONS AND COURSES"
-    },
-    "OBJECTIVE": {
-      "text": "Being part of a company where I can put into practice all my knowledge, to give me the opportunity to reach all my goals set, and that offers me the opportunity to grow in the area work, personal and intellectual."
-    },
-    "EDUCATION": {
-      "1": {
-        "date": "Aug. 2016 - Present",
-        "title": "Information Technologies and Communications Engineering",
-        "subtitle": "Instituto Tecnológico Superior del Occidente del Estado de Hidalgo (ITSOEH)",
-        "description": "Mixquiahuala de Juárez Hgo."
-      },
-      "2": {
-        "date": "Aug. 2013 - Jul. 2016",
-        "title": "Programming Technician",
-        "subtitle": "Centro de Bachillerato Tecnológico Industrial y de Servicios No. 83",
-        "description": "Actopan Hgo."
-      }
-    },
-    "PROFESSIONAL_EXPERIENCE": {
-      "6": {
-        "date": "Oct. 2020 - Present",
-        "title": "Frontend developer",
-        "subtitle": "Sodisa",
-        "description": "I am currently part of the frontend development team implementing and interacting with technologies such as React.js, Typescript, Sass, C# and MSSQLS."
-      },
-      "1": {
-        "date": "Aug. 2020 - Dec. 2020",
-        "title": "Frontend developer",
-        "subtitle": "Fixter",
-        "description": "I am currently a resident and I am part of the frontend development team implementing technologies such as React.js, Redux and Ant design."
-      },
-      "2": {
-        "date": "Jun. 2019 - Present",
-        "title": "Software developer",
-        "subtitle": "Actosoft Community",
-        "description": "Member of the frontend development team with technologies such as Javascript, CSS, HTML, SASS, Styled components, Typescript, React.js and Firebase for web applications. Lead Teacher in courses provided by Actosoft."
-      },
-      "3": {
-        "date": "Mar. 2020 - Apr. 2020",
-        "title": "Freelancer",
-        "subtitle": "Freelancer",
-        "description": "I taught an introductory online course called “Web development - create your own website“ including technologies like Git, HTML, CSS, Javascript and SASS."
-      },
-      "4": {
-        "date": "Jun. 2019 - Dec. 2019",
-        "title": "Web developer",
-        "subtitle": "Social Service at ITSOEH",
-        "description": "Full-stack development of the “App Web Lecturas” platform to record, analyze and present data on learning matters at the Linus Pauling school, Progreso de Obregón, Hgo. Making use of technologies like MySql, PHP, JQuery, HTML, Javascript and Bootstrap."
-      },
-      "5": {
-        "date": "Aug. 2017 - Dec. 2017",
-        "title": "Mobile developer and UI designer",
-        "subtitle": "Ciclo-pep",
-        "description": "I was part of the backend and frontend development team for the “Eco Guardianes” project, as well as making some mockups and images for the application."
-      }
-    },
-    "RECOGNITIONS": {
-      "1": {
-        "date": "May. 2020",
-        "title": "Course \"Cybersecurity Essentials\" by Cisco and ITSOEH."
-      },
-      "2": {
-        "date": "Jul. 2019",
-        "title": "Course \"CCNA R&S: Scaling Networks\" by Cisco and ITSOEH."
-      },
-      "3": {
-        "date": "Oct. 2019",
-        "title": "Position No. 18 in the programming competition \"Coding CupTecNM\"."
-      },
-      "4": {
-        "date": "Jan. 2019",
-        "title": "Course \"CCNA R&S: Connecting Networks\" by Cisco and ITSOEH."
-      },
-      "5": {
-        "date": "Aug. 2018",
-        "title": "Course \"CCNA R&S: Routing and Switching Essentials\" by Cisco and ITSOEH."
-      },
-      "6": {
-        "date": "May. 2018",
-        "title": "Participation in the course \"Diseña tu propia página web desde 0\" by SoftMotion."
-      },
-      "7": {
-        "date": "Oct. 2018",
-        "title": "1st position in the \"Rally Latinoamericano de innovación\" at headquarters level."
-      },
-      "8": {
-        "date": "Jan. 2017",
-        "title": "Course \"CCNA R&S: Introduction to Networks\" by Cisco and ITSOEH."
-      },
-      "9": {
-        "date": "Jun. 2015",
-        "title": "Accreditation of competences in Microsoft technologies for productivity (Word, Excel and PowerPoint) by SEP and Microsoft Mexico."
-      },
-      "10": {
-        "date": "Sep. 2020",
-        "title": "Course \"Advanced SEO\" by LinkedIn Learning."
-      },
-      "11": {
-        "date": "Sep. 2020",
-        "title": "Course \"Advanced JavaScript 2\" by LinkedIn Learning."
-      },
-      "12": {
-        "date": "Sep. 2020",
-        "title": "Course \"Advanced Node.js\" by LinkedIn Learning."
-      }
-    }
-  },
-  "PORTFOLIO": {
-    "title": {
-      "1": "PORTFOLIO"
-    },
-    "ITEM": {
-      "1": {
-        "title": "Ecowatering Plants",
-        "description": "PHP (Codeigniter) - HTML - CSS"
-      },
-      "2": {
-        "title": "App Web Lecturas",
-        "description": "PHP (Codeigniter) - CSS - Javascrirpt - JQuery"
-      },
-      "3": {
-        "title": "Natours landing page",
-        "description": "HTML - SASS"
-      },
-      "4": {
-        "title": "Reading list",
-        "description": "React - TypeScript - Styled components"
-      },
-      "5": {
-        "title": "Schedule",
-        "description": "React - Firebase"
-      },
-      "6": {
-        "title": "Rick and Morty API",
-        "description": "React - CSS - HTML"
-      },
-      "7": {
-        "title": "Rock, papper, or scissors",
-        "description": "Javascript - SASS"
-      },
-      "8": {
-        "title": "Fixstone landing page",
-        "description": "HTML - Bootstrap - CSS"
-      },
-      "9": {
-        "title": "Paleteria Chuchin",
-        "description": "Electron - React - Firebase"
-      },
-      "10": {
-        "title": "Meet platform",
-        "description": "React - Express - Mongo DB"
-      },
-      "11": {
-        "title": "Resume",
-        "description": "React - SASS"
-      },
-      "12": {
-        "title": "Team Organizer",
-        "description": "React - CSS"
-      },
-      "13": {
-        "title": "BuntiApp",
-        "description": "Java - Firebase"
-      },
-      "14": {
-        "title": "Eco Guardianes",
-        "description": "Java"
-      },
-      "15": {
-        "title": "Rick and Morty API",
-        "description": "React - Redux - GraphQL"
-      },
-      "16": {
-        "title": "Pokedex Poke API",
-        "description": "React - Redux - Styled components"
-      }
-    }
-  },
-  "CONTACT": {
-    "title": {
-      "1": "CONTACT"
-    },
-    "FORM": {
-      "getInTouch": "Get in touch",
-      "name": "Enter your name",
-      "email": "Enter yout email",
-      "subject": "Your subject",
-      "message": "Your message",
-      "send": "SEND EMAIL",
-      "MESSAGES": {
-        "success": "Email sent successfully",
-        "warning": "Oops! Something went wrong, try later.",
-        "error": "Oops! Something went wrong, try later."
-      }
-    },
-    "INFO": {
-      "address": {
-        "title": "Address",
-        "description": "Dextho de Victoria, San Salvador Hgo. MX."
-      },
-      "phone": {
-        "title": "Phone",
-        "description": "(+52) 771 415 2997"
-      },
-      "email": {
-        "title": "Email",
-        "description": "dsalas035@gmail.com"
-      }
-    }
-  },
-  "LEGAL": {
-    "madeBy": "2020 by Juan Diego Salas Jimenez"
-  }
+	"HOME": {
+		"title": "HOME",
+		"hiIam": {
+			"1": "Hi! I am"
+		},
+		"objetive": {
+			"1": "Without change there is no innovation, creativity, or incentive for improvement. Those who initiate change will have a better chance of managing the change that is inevitable. - William Pollard."
+		}
+	},
+	"ABOUT": {
+		"title": {
+			"1": "ABOUT",
+			"2": "ABOUT ME",
+			"3": "SERVICES"
+		},
+		"iam": {
+			"1": "I am"
+		},
+		"info": {
+			"1": "Engineering student in Information Technologies and Communications."
+		},
+		"fullName": {
+			"1": "Full name",
+			"2": "Juan Diego Salas Jiménez"
+		},
+		"age": {
+			"1": "Age"
+		},
+		"birthday": {
+			"1": "Birthday"
+		},
+		"nationality": {
+			"1": "Nationality",
+			"2": "Mexican"
+		},
+		"languages": {
+			"1": "Languages",
+			"2": "Spanish (Native) - English (A2)"
+		},
+		"maritalStatus": {
+			"1": "Marital status",
+			"2": "Single"
+		},
+		"downloadResume": {
+			"1": "DOWNLOAD RESUME",
+			"es": "SPANISH",
+			"en": "ENGLISH"
+		},
+		"SERVICE": {
+			"title": {
+				"1": "Web design",
+				"2": "Web development",
+				"3": "Mobile development"
+			},
+			"description": {
+				"1": "The interface must project the corporate image of the client, its essence and values must be understood beyond placing only the logo.",
+				"2": "The optimization of the front-end as the back-end of the site; The objective is to control and optimize the website loading process.",
+				"3": "Mobile devices guarantee the practicality we are looking for, so it is necessary that navigation and functionality be designed for mobile phones."
+			}
+		}
+	},
+	"RESUME": {
+		"title": {
+			"1": "RESUME",
+			"objective": "PROFESSIONAL OBJECTIVE",
+			"skills": "SKILLS",
+			"education": "EDUCATION",
+			"proExp": "PROFESSIONAL EXPERIENCE",
+			"recognitions": "RECOGNITIONS AND COURSES"
+		},
+		"OBJECTIVE": {
+			"text": "Being part of a company where I can put into practice all my knowledge, to give me the opportunity to reach all my goals set, and that offers me the opportunity to grow in the area work, personal and intellectual."
+		},
+		"EDUCATION": {
+			"1": {
+				"date": "Aug. 2016 - Present",
+				"title": "Information Technologies and Communications Engineering",
+				"subtitle": "Instituto Tecnológico Superior del Occidente del Estado de Hidalgo (ITSOEH)",
+				"description": "Mixquiahuala de Juárez Hgo."
+			},
+			"2": {
+				"date": "Aug. 2013 - Jul. 2016",
+				"title": "Programming Technician",
+				"subtitle": "Centro de Bachillerato Tecnológico Industrial y de Servicios No. 83",
+				"description": "Actopan Hgo."
+			}
+		},
+		"PROFESSIONAL_EXPERIENCE": {
+			"6": {
+				"date": "Oct. 2020 - Present",
+				"title": "Frontend developer",
+				"subtitle": "Sodisa",
+				"description": "I am currently part of the frontend development team implementing and interacting with technologies such as React.js, Typescript, Sass, C# and MSSQLS."
+			},
+			"1": {
+				"date": "Aug. 2020 - Dec. 2020",
+				"title": "Frontend developer",
+				"subtitle": "Fixter",
+				"description": "I am currently a resident and I am part of the frontend development team implementing technologies such as React.js, Redux and Ant design."
+			},
+			"2": {
+				"date": "Jun. 2019 - Present",
+				"title": "Software developer",
+				"subtitle": "Actosoft Community",
+				"description": "Member of the frontend development team with technologies such as Javascript, CSS, HTML, SASS, Styled components, Typescript, React.js and Firebase for web applications. Lead Teacher in courses provided by Actosoft."
+			},
+			"3": {
+				"date": "Mar. 2020 - Apr. 2020",
+				"title": "Freelancer",
+				"subtitle": "Freelancer",
+				"description": "I taught an introductory online course called “Web development - create your own website“ including technologies like Git, HTML, CSS, Javascript and SASS."
+			},
+			"4": {
+				"date": "Jun. 2019 - Dec. 2019",
+				"title": "Web developer",
+				"subtitle": "Social Service at ITSOEH",
+				"description": "Full-stack development of the “App Web Lecturas” platform to record, analyze and present data on learning matters at the Linus Pauling school, Progreso de Obregón, Hgo. Making use of technologies like MySql, PHP, JQuery, HTML, Javascript and Bootstrap."
+			},
+			"5": {
+				"date": "Aug. 2017 - Dec. 2017",
+				"title": "Mobile developer and UI designer",
+				"subtitle": "Ciclo-pep",
+				"description": "I was part of the backend and frontend development team for the “Eco Guardianes” project, as well as making some mockups and images for the application."
+			}
+		},
+		"RECOGNITIONS": {
+			"1": {
+				"date": "May. 2020",
+				"title": "Course \"Cybersecurity Essentials\" by Cisco and ITSOEH."
+			},
+			"2": {
+				"date": "Jul. 2019",
+				"title": "Course \"CCNA R&S: Scaling Networks\" by Cisco and ITSOEH."
+			},
+			"3": {
+				"date": "Oct. 2019",
+				"title": "Position No. 18 in the programming competition \"Coding CupTecNM\"."
+			},
+			"4": {
+				"date": "Jan. 2019",
+				"title": "Course \"CCNA R&S: Connecting Networks\" by Cisco and ITSOEH."
+			},
+			"5": {
+				"date": "Aug. 2018",
+				"title": "Course \"CCNA R&S: Routing and Switching Essentials\" by Cisco and ITSOEH."
+			},
+			"6": {
+				"date": "May. 2018",
+				"title": "Participation in the course \"Diseña tu propia página web desde 0\" by SoftMotion."
+			},
+			"7": {
+				"date": "Oct. 2018",
+				"title": "1st position in the \"Rally Latinoamericano de innovación\" at headquarters level."
+			},
+			"8": {
+				"date": "Jan. 2017",
+				"title": "Course \"CCNA R&S: Introduction to Networks\" by Cisco and ITSOEH."
+			},
+			"9": {
+				"date": "Jun. 2015",
+				"title": "Accreditation of competences in Microsoft technologies for productivity (Word, Excel and PowerPoint) by SEP and Microsoft Mexico."
+			},
+			"10": {
+				"date": "Sep. 2020",
+				"title": "Course \"Advanced SEO\" by LinkedIn Learning."
+			},
+			"11": {
+				"date": "Sep. 2020",
+				"title": "Course \"Advanced JavaScript 2\" by LinkedIn Learning."
+			},
+			"12": {
+				"date": "Sep. 2020",
+				"title": "Course \"Advanced Node.js\" by LinkedIn Learning."
+			}
+		}
+	},
+	"PORTFOLIO": {
+		"title": {
+			"1": "PORTFOLIO"
+		},
+		"ITEM": {
+			"1": {
+				"title": "Ecowatering Plants",
+				"description": "PHP (Codeigniter) - HTML - CSS"
+			},
+			"2": {
+				"title": "App Web Lecturas",
+				"description": "PHP (Codeigniter) - CSS - Javascrirpt - JQuery"
+			},
+			"3": {
+				"title": "Natours landing page",
+				"description": "HTML - SASS"
+			},
+			"4": {
+				"title": "Reading list",
+				"description": "React - TypeScript - Styled components"
+			},
+			"5": {
+				"title": "Schedule",
+				"description": "React - Firebase"
+			},
+			"6": {
+				"title": "Rick and Morty API",
+				"description": "React - CSS - HTML"
+			},
+			"7": {
+				"title": "Rock, papper, or scissors",
+				"description": "Javascript - SASS"
+			},
+			"8": {
+				"title": "Fixstone landing page",
+				"description": "HTML - Bootstrap - CSS"
+			},
+			"9": {
+				"title": "Paleteria Chuchin",
+				"description": "Electron - React - Firebase"
+			},
+			"10": {
+				"title": "Meet platform",
+				"description": "React - Express - Mongo DB"
+			},
+			"11": {
+				"title": "Resume",
+				"description": "React - SASS"
+			},
+			"12": {
+				"title": "Team Organizer",
+				"description": "React - CSS"
+			},
+			"13": {
+				"title": "BuntiApp",
+				"description": "Java - Firebase"
+			},
+			"14": {
+				"title": "Eco Guardianes",
+				"description": "Java"
+			},
+			"15": {
+				"title": "Rick and Morty API",
+				"description": "React - Redux - GraphQL"
+			},
+			"16": {
+				"title": "Pokedex Poke API",
+				"description": "React - Redux - Styled components"
+			},
+			"17": {
+				"title": "Save 365",
+				"description": "React - Redux toolkit - Styled components - Typescript -  Firebase"
+			}
+		}
+	},
+	"CONTACT": {
+		"title": {
+			"1": "CONTACT"
+		},
+		"FORM": {
+			"getInTouch": "Get in touch",
+			"name": "Enter your name",
+			"email": "Enter yout email",
+			"subject": "Your subject",
+			"message": "Your message",
+			"send": "SEND EMAIL",
+			"MESSAGES": {
+				"success": "Email sent successfully",
+				"warning": "Oops! Something went wrong, try later.",
+				"error": "Oops! Something went wrong, try later."
+			}
+		},
+		"INFO": {
+			"address": {
+				"title": "Address",
+				"description": "Dextho de Victoria, San Salvador Hgo. MX."
+			},
+			"phone": {
+				"title": "Phone",
+				"description": "(+52) 771 415 2997"
+			},
+			"email": {
+				"title": "Email",
+				"description": "dsalas035@gmail.com"
+			}
+		}
+	},
+	"LEGAL": {
+		"madeBy": "2020 by Juan Diego Salas Jimenez"
+	}
 }
