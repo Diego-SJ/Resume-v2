@@ -6,21 +6,21 @@ import CardPortfolio from '../../common/Card/CardPortfolio';
 import './Portfolio.scss';
 
 const Portfolio = () => {
-  return (
-    <Landing>
-      <Section title="PORTFOLIO.title.1">
-        {PortfolioInfo.map((item) => (
-          <CardPortfolio
-            key={item.id}
-            image={item.image}
-            title={item.title}
-            description={item.description}
-            link={item.link !== null ? item.link : null}
-          />
-        ))}
-      </Section>
-    </Landing>
-  );
+	return (
+		<Landing>
+			<Section title="PORTFOLIO.title.1">
+				{PortfolioInfo.map((item) => (
+					<CardPortfolio
+						key={item.id}
+						image={item.image}
+						title={item.title}
+						description={item.description}
+						link={item.link !== null ? item.link : null}
+					/>
+				))}
+			</Section>
+		</Landing>
+	);
 };
 
 export default Portfolio;

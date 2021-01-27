@@ -7,6 +7,7 @@ import {
   RESUME,
   PORTFOLIO,
   CONTACT,
+  BLOG,
 } from '../../../routes/routes';
 import { useTranslation } from 'react-i18next';
 import Icon from '../../common/Icon';
@@ -44,6 +45,7 @@ const SlideMenu = React.memo(() => {
             icon="folder"
             title="PORTFOLIO.title.1"
           />
+          <SidemenuItem url={BLOG} icon="blog" title="BLOG" />
           <SidemenuItem url={CONTACT} icon="phone" title="CONTACT.title.1" />
         </ul>
         <div className="legal">&copy; {t('LEGAL.madeBy')}</div>
