@@ -6,9 +6,7 @@ import { CONTACT } from '../../../routes/routes';
 import {
   LINKEDIN,
   GITHUB,
-  PHONE,
   MEDIUM,
-  WHATSAPP,
 } from '../../../constants/social';
 import { useTranslation } from 'react-i18next';
 import ParticlesBg from 'particles-bg';
