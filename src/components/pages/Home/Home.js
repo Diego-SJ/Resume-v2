@@ -41,28 +41,6 @@ const Home = ({ onlyHideMenuAction }) => {
             </li>
             <li className="social-item">
               <a
-                href={`tel:${PHONE}`}
-                className="social-item__content"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="phone"
-              >
-                <Icon icon="phone" className="social-item__icon" />
-              </a>
-            </li>
-            <li className="social-item">
-              <a
-                href={WHATSAPP}
-                className="social-item__content"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="whatsapp"
-              >
-                <Icon icon="whatsapp" className="social-item__icon" />
-              </a>
-            </li>
-            <li className="social-item">
-              <a
                 href={LINKEDIN}
                 className="social-item__content"
                 target="_blank"

@@ -282,12 +282,12 @@ export const ContactInfo = [
 		title: 'CONTACT.INFO.address.title',
 		description: 'CONTACT.INFO.address.description'
 	},
-	{
-		id: 2,
-		icon: 'phone',
-		title: 'CONTACT.INFO.phone.title',
-		description: 'CONTACT.INFO.phone.description'
-	},
+	// {
+	// 	id: 2,
+	// 	icon: 'phone',
+	// 	title: 'CONTACT.INFO.phone.title',
+	// 	description: 'CONTACT.INFO.phone.description'
+	// },
 	{
 		id: 3,
 		icon: 'at-sign',
